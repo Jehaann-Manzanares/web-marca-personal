@@ -1,0 +1,107 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+:root{
+ --colorNegro:#222222;
+ --colorCeleste:#4EBAF9;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 30% 30% 1fr;
+    grid-template-areas: "logo . container-menu";
+    align-items: center;
+    padding: 30px 20px;
+    background-color: var(--colorNegro);
+    color: white;
+    font-size: 18px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+}
+
+.logo{
+    grid-area: logo;
+    
+}
+
+.container-menu{
+    grid-area: container-menu
+}
+
+.container-menu li{
+    display: inline-block;
+    padding: auto 10px;
+    margin-right: 35px
+}
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: var(--colorCeleste);
+    color: white;
+    padding: 5px 25px;
+    border-radius: 36px;  
+}
+
+.main-slider{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "img-slider info-slider";
+    background-color: var(--colorNegro);
+    padding: 30px
+}
+
+.img-slider{
+    grid-area: img-slider;
+    height: 400px;
+}
+
+.info-slider{
+    grid-area: info-slider;
+}
+
+.titles{
+    font-size: 25px;
+    color: var(--colorCeleste);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px
+}
+
+.subtitles{
+    color: white;
+}
+
+strong{
+    color: var(--colorCeleste);
+    
+}
