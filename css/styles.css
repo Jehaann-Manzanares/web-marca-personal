@@ -84,7 +84,7 @@ a{
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "img-slider info-slider";
     background-color: var(--colorNegro);
-    padding: 30px
+    padding:  0 30px;
 }
 
 .img-slider{
@@ -98,8 +98,9 @@ a{
     
 }
 
-.info-slider{
+.main-slider .info-slider{
     grid-area: info-slider;
+    margin-top: 20px;
 }
 /*-----------------------------
         TITLES
@@ -113,10 +114,42 @@ a{
 }
 
 .subtitles{
+    font-size: 20px;
     color: white;
+
 }
 
 strong{
     color: var(--colorCeleste);
     
+}
+
+/*-----------------------------
+        ABOUT ME
+-----------------------------*/
+
+.about-me{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "title-about title-about title-about"
+               "about-me-subtitle-one about-me-img about-me-subtitle-two";   
+    justify-items: center;
+    padding: 30px 30px
+    }
+
+.title-about{
+    grid-area: title-about;
+}
+
+.about-me-subtitle-one{
+    grid-area: about-me-subtitle-one;
+}
+
+.about-me-img{
+    grid-area: about-me-img;
+}
+
+.about-me-subtitle-two{
+    grid-area: about-me-subtitle-two
 }
