@@ -19,11 +19,29 @@ vertical-align:baseline;
 background:transparent;
 }
 :root{
- --colorNegro:#222222;
+ --colorNegro:#000;
  --colorCeleste:#4EBAF9;
 }
 
-body{
+@font-face{
+    font-family: titles;
+    src: url("../fonts/gotham-rounded-medium.otf");
+}
+@font-face{
+font-family: subtitles;
+    src: url("../fonts/gotham-rounded-bold.otf");
+}
+@font-face{
+    font-family: texts;
+        src: url("../fonts/gotham-rounded-book.otf");
+    }
+@font-face{
+        font-family: texts-lites;
+            src: url("../fonts/gotham-rounded-light.otf");
+        }
+
+    
+    body{
     font-family: Arial, Helvetica, sans-serif
 }
 /*-----------------------------
@@ -55,12 +73,16 @@ body{
 
 
 .container-menu li{
-    display: inline-block;
+    
     padding: auto 10px;
     margin-right: 35px
+    
 }
 ul li{
+    display: inline-block;
     list-style: none;
+   
+
 }
 
 a{
@@ -106,19 +128,27 @@ a{
         TITLES
 -----------------------------*/
 .titles{
+    font-family: titles;
     font-size: 25px;
     color: var(--colorCeleste);
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 25px
 }
-
+.subtitles-black,
 .subtitles{
     font-size: 20px;
+}.subtitles{
+    font-family: texts;
     color: white;
 
 }
 
+.subtitles-black{
+    
+    color: white;
+
+}
 strong{
     color: var(--colorCeleste);
     
@@ -131,9 +161,10 @@ strong{
 .about-me{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
     grid-template-areas: "title-about title-about title-about"
-               "about-me-subtitle-one about-me-img about-me-subtitle-two";   
+                         "about-me-subtitle-one about-me-img about-me-subtitle-two"
+                         ". about-me-img .";   
     justify-items: center;
     padding: 30px 30px
     }
@@ -150,6 +181,64 @@ strong{
     grid-area: about-me-img;
 }
 
+.about-me-img img{
+    height: 400px;
+}
+
+
 .about-me-subtitle-two{
     grid-area: about-me-subtitle-two
+}
+/*-----------------------------
+        PORTFOLIO
+-----------------------------*/
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(3, auto );
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "portfolio-titles portfolio-titles portfolio-titles"
+                         "porfolio-category porfolio-category porfolio-category"
+                         "portfolio-projects portfolio-projects portfolio-projects"
+                         "projects projects projects";
+    grid-gap: 15px;
+    padding: 0 30px;
+    justify-items: center;
+    background-color: var(--colorNegro);
+    padding: 30px
+
+
+}
+
+.portfolio-titles{
+    grid-area: portfolio-titles;
+    text-align: center
+    
+}
+
+.porfolio-category {
+    grid-area: porfolio-category;
+}
+
+.porfolio-category ul li{
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 30px 
+}
+
+.porfolio-category a{
+    color: var(--colorCeleste)
+}
+
+.projects{
+    grid-area: projects;
+    display: grid;
+    justify-items: center
+    
+}
+
+.img-project{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
