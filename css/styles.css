@@ -146,7 +146,7 @@ a{
 
 .subtitles-black{
     
-    color: white;
+    color: black;
 
 }
 strong{
@@ -241,4 +241,47 @@ strong{
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+/*-----------------------------
+        CONTACT
+-----------------------------*/
+.contact{
+    display: grid;
+    grid-template: repeat(2,1fr)/repeat(2,1fr);
+    grid-template-areas: "contact-titles contact-titles"
+                         "contact-info contact-form";
+                         justify-items: center 
+}
+
+.contact-titles{
+    grid-area: contact-titles;
+    text-align: center
+}
+
+.contact-info{
+    grid-area: contact-info;
+}
+
+.contact-form{
+    grid-area: contact-form;
+}
+
+/*-----------------------------
+        FOOTER
+-----------------------------*/
+
+.footer{
+    height: 200px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+}
+
+.social-icons{
+
+}
+
+.sub-footer{
+
 }
