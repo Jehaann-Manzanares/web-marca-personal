@@ -27,10 +27,12 @@
         <div class="info-slider">
             <div class="info-slider-titles">
                 <h2 class="titles">FrontEnd Developer</strong></h2>
-                <p class="subtitles">Diseño y desarrollo de interfacez <strong> (UI) </strong><br>que se adaptan a todos los dispositivos</p>
+                <p class="subtitles">Diseño y desarrollo de interfaces <strong> (UI) </strong><br>que se adaptan a todos los dispositivos</p>
             </div>
             <div class="graphic-slider">
-
+                
+                <div id="container">
+                </div>
             </div>
         </div>
     </section>
@@ -38,8 +40,8 @@
         
         <h2 class="titles title-about">Sobre mí</h2>
         <div class="about-me-subtitle-one">
-            <h3>TOOLS EXPERTNESS</h3>
-            <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. </p>
+            <h3 class="titles">TOOLS EXPERTNESS</h3>
+            <p class="subtitles-black">inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. </p>
         </div>
         <div class="about-me-img">
             <figure>
@@ -47,22 +49,25 @@
             </figure>
         </div>
         <div class="about-me-subtitle-two">
-            <h3>SOFT SKILLS</h3>
+            <h3 class="titles">SOFT SKILLS</h3>
             <div class="skills">
                 <h4>SKILL ONE</h4>
+                <div class="skill-one"></div>
             </div>
             <div class="skills">
                 <h4>SKILL TWO</h4>
+                <div class="skill-two"></div>
             </div>
             <div class="skills">
                 <h4>SKILL THREE</h4>
+                <div class="skill-one"></div>
             </div>
         </div>
     </section>
     <section id="portfolio" class="portfolio">
         <div class="portfolio-titles">
              <h2 class="titles">Porfolio</h2>
-             <p class="subtitles-black">Lorem ipsum dolor sit amet, consectetur </p>
+             <p class="subtitles">Lorem ipsum dolor sit amet, consectetur </p>
         </div>
         <div class="porfolio-category">
             <ul>
@@ -75,71 +80,53 @@
         </div>
         
         <article class="project">
-                    <figure></figure>
+                <div  class="project-container">
+                    <figure>
                         <img src="images/portfolio_details.jpg" alt="projecto1" class="img-project">
                     </figure>
-                    <div class="project-info">
-                        <h3>Project one</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                        <button>ver proyecto</button>
-                    </div>
+                    <span class="project-info">
+                        <p>
+                            <span class="titles">Project one</span>
+                            <span class="subtitles">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span>
+                            <button>ver proyecto</button>
+                        </p>
+                    </span>
+                </div>
         </article>
         <article class="project">
+                <div  class="project-container">
                     <figure>
-                        <img src="images/portfolio_details.jpg" alt="projecto1"class="img-project">
+                        <img src="images/portfolio_details.jpg" alt="projecto1" class="img-project">
                     </figure>
-                    <div class="project-info">
-                        <h3>Project two</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                        <button>ver proyecto</button>
-                    </div>
+                    <span class="project-info">
+                        <p>
+                            <span class="titles">Project one</span>
+                            <span class="subtitles">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span>
+                            <button>ver proyecto</button>
+                        </p>
+                    </span>
+                </div>
         </article>
         <article class="project">
+                <div  class="project-container">
                     <figure>
-                        <img src="images/portfolio_details.jpg" alt="projecto1"class="img-project">
+                        <img src="images/portfolio_details.jpg" alt="projecto1" class="img-project">
                     </figure>
-                    <div class="project-info">
-                        <h3>Project three</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                        <button>ver proyecto</button>
-                    </div>
+                    <span class="project-info">
+                        <p>
+                            <span class="titles">Project one</span>
+                            <span class="subtitles">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span>
+                            <button>ver proyecto</button>
+                        </p>
+                    </span>
+                </div>
         </article>
-        
-        <article class="project">
-            <figure>
-                <img src="images/portfolio_details.jpg" alt="projecto1"class="img-project">
-            </figure>
-            <div class="project-info">
-                <h3>Project one</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                <button>ver proyecto</button>
-            </div>
-</article>
-<article class="project">
-            <figure>
-                <img src="images/portfolio_details.jpg" alt="projecto1"class="img-project">
-            </figure>
-            <div class="project-info">
-                <h3>Project two</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                <button>ver proyecto</button>
-            </div>
-</article>
-<article class="project">
-            <figure>
-                <img src="images/portfolio_details.jpg" alt="projecto1"class="img-project">
-            </figure>
-            <div class="project-info">
-                <h3>Project three</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                <button>ver proyecto</button>
-            </div>
-</article>
+  
  
     </section>
     <section id="contact" class="contact">
         <div class="contact-titles">
-            <h2 class="titles">Creamos algo justos?</h2>
+            <h2 class="titles">Creamos algo juntos?</h2>
             <p class="subtitles-black">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
         </div>
         <div class="contact-info">
@@ -169,5 +156,11 @@
                 <p class="subtitles">De LATAM  para el mundo</p>
         </div>
     </footer>
+
+    <script src="js/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
+
+
 </html>

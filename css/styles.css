@@ -19,30 +19,22 @@ vertical-align:baseline;
 background:transparent;
 }
 :root{
- --colorNegro:#000;
+ --colorNegro:#010312;
  --colorCeleste:#4EBAF9;
+ --colorAzul:#0067cd;
 }
 
 @font-face{
     font-family: titles;
-    src: url("../fonts/gotham-rounded-medium.otf");
+    src: url("../fonts/Poppins-Medium.ttf");
 }
 @font-face{
-font-family: subtitles;
-    src: url("../fonts/gotham-rounded-bold.otf");
+font-family: texts;
+    src: url("../fonts/Poppins-Light.ttf");
 }
-@font-face{
-    font-family: texts;
-        src: url("../fonts/gotham-rounded-book.otf");
-    }
-@font-face{
-        font-family: texts-lites;
-            src: url("../fonts/gotham-rounded-light.otf");
-        }
 
-    
-    body{
-    font-family: Arial, Helvetica, sans-serif
+body{
+    font-family: texts;
 }
 /*-----------------------------
         MENU
@@ -59,6 +51,7 @@ font-family: subtitles;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 10;
     
 }
 
@@ -93,7 +86,7 @@ a{
         BUTTONS
 -----------------------------*/
 .btn{
-    background-color: var(--colorCeleste);
+    background-image: linear-gradient(to right, var(--colorAzul),var(--colorCeleste));
     color: white;
     padding: 5px 25px;
     border-radius: 36px;  
@@ -107,12 +100,14 @@ a{
     grid-template-areas: "img-slider info-slider";
     background-color: var(--colorNegro);
     padding:  0 30px;
+    align-items: flex-end
 }
 
 .img-slider{
     grid-area: img-slider;
     height: 400px;
     margin: 0 auto;
+
 }
 
 .img-slider img{
@@ -124,22 +119,31 @@ a{
     grid-area: info-slider;
     margin-top: 20px;
 }
+#container{
+
+min-width: 400px; 
+max-width: 600px; 
+height: 400px; 
+margin: 0 auto"
+}
+
+
 /*-----------------------------
         TITLES
 -----------------------------*/
 .titles{
     font-family: titles;
-    font-size: 25px;
+    font-size: 35px;
     color: var(--colorCeleste);
     text-transform: uppercase;
-    font-weight: bold;
     margin-bottom: 25px
 }
 .subtitles-black,
 .subtitles{
-    font-size: 20px;
+    font-size: 18px;
+    
 }.subtitles{
-    font-family: texts;
+   
     color: white;
 
 }
@@ -228,11 +232,14 @@ strong{
 .porfolio-category a{
     color: var(--colorCeleste)
 }
-
 .projects{
     grid-area: projects;
-    display: grid;
-    justify-items: center
+    
+    
+}
+.project-container{
+    
+  
     
 }
 
@@ -241,6 +248,19 @@ strong{
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
+    
+}
+
+.project-info{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.project-container:hover .project-info{
+    display: flex;
+     
 }
 /*-----------------------------
         CONTACT
