@@ -52,7 +52,7 @@ Highcharts.chart('container', {
   
     series: [{
       
-      data: [60, 70, 80, 85, 79, 100],
+      data: [80, 75, 60, 80, 89, 60],
       pointPlacement: 'on'
     }]
   
