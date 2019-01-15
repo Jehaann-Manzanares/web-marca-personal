@@ -33,7 +33,7 @@ Highcharts.chart('container', {
       min: 0,
       labels: {
         style: {
-           color: '#fff'
+           color: '#4ebaf9'
         }
      },
     },
