@@ -22,6 +22,7 @@ background:transparent;
  --colorNegro:#010312;
  --colorCeleste:#4EBAF9;
  --colorAzul:#0067cd;
+ --degradado:linear-gradient(to right, var(--colorAzul),var(--colorCeleste));
 }
 
 @font-face{
@@ -87,10 +88,12 @@ a{
         BUTTONS
 -----------------------------*/
 .btn{
-    background-image: linear-gradient(to right, var(--colorAzul),var(--colorCeleste));
+    background-image: var(--degradado);
     color: white;
     padding: 5px 25px;
-    border-radius: 36px;  
+    border-radius: 36px;
+    border: 2px solid var(--colorCeleste)
+    
 }
 /*-----------------------------
         MAIN
@@ -211,7 +214,7 @@ strong{
 }
 
 .level{
-    background-image: linear-gradient(to right, var(--colorAzul),var(--colorCeleste));
+    background-image: var(--degradado);
     height: 20px;
     border-radius: 17px;
     color: white;
@@ -233,7 +236,7 @@ strong{
     width: 80%;
 }
 
-.profiles-container{
+.profiles-container, .contact-icon-container{
     display: flex;
     align-content: center;
     align-items: center;
@@ -244,7 +247,8 @@ strong{
     
     color: black
 }
-.lead,.comunicator,.time{
+.lead,.comunicator,.time,
+.icon-ni, .icon-phone, .icon-mail{
     width: 50px;
     height: 50px;
     background-size: 50px 50px;
@@ -359,21 +363,20 @@ strong{
  }
 
  button{
-    height: 35px;
-    width: 180px;
-    border: none;
+    
+    
     font-size: 16px;
     font-family: texts;
     cursor: pointer;
-    transition-property: height,width,font-size;
-    transition-duration: .5s;
-    transition-timing-function:ease-out
+    
+    
 }
 
-button:hover{
- height: 40px;
- width:185px;
- font-size:18px
+button,.btn:hover{
+
+ background: transparent;
+ border: 2px solid var(--colorCeleste);
+ color: var(--colorCeleste)
 }
 
 
@@ -385,7 +388,8 @@ button:hover{
     grid-template: repeat(2,1fr)/repeat(2,1fr);
     grid-template-areas: "contact-titles contact-titles"
                          "contact-info contact-form";
-                         justify-items: center 
+    justify-items: center;
+    padding: 30px
 }
 
 .contact-titles{
@@ -395,6 +399,20 @@ button:hover{
 
 .contact-info{
     grid-area: contact-info;
+}
+.contact-info p{
+    font-weight: bold
+}
+.icon-ni{
+    background-image: url("../icons/home.svg")
+}
+
+.icon-phone{
+    background-image: url("../icons/smartphone.svg")
+}
+
+.icon-mail{
+    background-image: url("../icons/email.svg")
 }
 
 .contact-form{
