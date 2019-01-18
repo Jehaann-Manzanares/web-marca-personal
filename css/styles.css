@@ -88,10 +88,10 @@ a{
         BUTTONS
 -----------------------------*/
 .btn{
-    background-image: var(--degradado);
-    color: white;
+    background: transparent;
+    color: var(--colorCeleste);
     padding: 5px 25px;
-    border-radius: 36px;
+    border-radius: 5px;
     border: 2px solid var(--colorCeleste)
     
 }
@@ -370,13 +370,14 @@ strong{
     cursor: pointer;
     
     
+    
 }
 
 button,.btn:hover{
 
- background: transparent;
+    background-image: var(--degradado);
  border: 2px solid var(--colorCeleste);
- color: var(--colorCeleste)
+ color: white
 }
 
 
@@ -385,16 +386,18 @@ button,.btn:hover{
 -----------------------------*/
 .contact{
     display: grid;
-    grid-template: repeat(2,1fr)/repeat(2,1fr);
+    grid-template: repeat(2,auto)/repeat(2,1fr);
     grid-template-areas: "contact-titles contact-titles"
                          "contact-info contact-form";
     justify-items: center;
-    padding: 30px
+    padding: 30px;
+    grid-gap: 15px
 }
 
 .contact-titles{
     grid-area: contact-titles;
-    text-align: center
+    text-align: center;
+    margin-bottom: 20px
 }
 
 .contact-info{
@@ -417,8 +420,29 @@ button,.btn:hover{
 
 .contact-form{
     grid-area: contact-form;
+    text-align: center;
+    
+}
+input{
+    margin-right: 5px;
+    width: 180px;
+    border-radius: 5px;
+    border: 2px solid var(--colorCeleste);
+    font-family: texts
+}
+.contact-form input, textarea,.contact-form button {
+    margin: 10px;
+    padding: 8px
 }
 
+textarea{
+    display: block;
+    border-radius: 5px;
+    width: 92%;
+    font-family: texts;
+    border: 2px solid var(--colorCeleste);
+    font-size: 14px
+}
 
 
 /*-----------------------------
@@ -438,5 +462,6 @@ button,.btn:hover{
 }
 
 .sub-footer{
+
 
 }
