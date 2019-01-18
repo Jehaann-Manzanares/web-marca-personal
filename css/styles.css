@@ -248,7 +248,8 @@ strong{
     color: black
 }
 .lead,.comunicator,.time,
-.icon-ni, .icon-phone, .icon-mail{
+.icon-ni, .icon-phone, .icon-mail,
+.facebook, .twitter, .intagram, .linkedIn, .github{
     width: 50px;
     height: 50px;
     background-size: 50px 50px;
@@ -455,13 +456,38 @@ textarea{
     align-items: center;
     justify-items: center;
     background-color: black;
+    padding: 30px;
 }
 
 .social-icons{
-
+    
 }
 
 .sub-footer{
 
 
+}
+
+.facebook{
+    background-image: url("../icons/facebook.svg")
+}
+
+.twitter{
+    background-image: url("../icons/twitter.svg")
+}
+
+.intagram{
+    background-image: url("../icons/instagram.svg")
+}
+
+.linkedIn{
+    background-image: url("../icons/linkedin.svg") 
+}
+
+.github{
+    background-image: url("../icons/github.svg") 
+}
+
+.sub-footer p{
+    font-weight: bold
 }

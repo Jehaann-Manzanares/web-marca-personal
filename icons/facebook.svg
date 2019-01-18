@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1.9827" y1="254.0174" x2="513.9827" y2="254.0174">
+	<stop  offset="0" style="stop-color:#0067CD"/>
+	<stop  offset="1" style="stop-color:#4EBAF9"/>
+</linearGradient>
+<path class="st0" d="M77,510h167V328h-60v-60h60v-75c0-41.4,33.6-75,75-75h75v60h-60c-16.5,0-30,13.5-30,30v60h87.3l-10,60H304v182
+	h135c41.4,0,75-33.6,75-75V73c0-41.4-33.6-75-75-75H77C35.6-2,2,31.6,2,73v362C2,476.4,35.6,510,77,510z M28,69.8
+	c0-25.2,20.6-45.8,45.8-45.8h368.4c25.2,0,45.8,20.6,45.8,45.8v368.4c0,25.2-20.6,45.8-45.8,45.8H335.3V359.8h74l20.4-122.1h-94.3
+	v-30.5h91.6V85.1H320.1c-58.9,0-106.8,47.9-106.8,106.8v45.8h-61.1v122.1h61.1V484H73.8C48.6,484,28,463.4,28,438.2V69.8z"/>
+</svg>
