@@ -125,9 +125,9 @@ a{
 }
 #container{
 
-min-width: 400px;
-max-width: 600px;
-height: 400px;
+
+width: 80%;
+height: auto;
 margin: 0 auto
 }
 
@@ -223,17 +223,17 @@ strong{
 
 .one{
 
-    width: 80%;
+    width: 70%;
 }
 
 .two{
 
-    width: 80%;
+    width: 50%;
 }
 
 .three{
 
-    width: 80%;
+    width: 72%;
 }
 
 .profiles-container, .contact-icon-container{
@@ -241,6 +241,9 @@ strong{
     align-content: center;
     align-items: center;
     margin: 30px 0;
+}
+.profiles-container p {
+  font-weight: bold;
 }
 
 .profiles{
@@ -489,7 +492,14 @@ textarea{
 }
 
 .sub-footer p{
-    font-weight: bold
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+footer span{
+  width: 3em;
+  border-bottom: 5px solid var(--colorCeleste);
+  padding-bottom: .5em
 }
 /*-----------------------------
         RESPONSIVE TABLET
@@ -525,4 +535,9 @@ textarea{
       .contact-form input{
         width: 90%
       }
+
+      #container {
+    width: 100%;
+
+}
 }
