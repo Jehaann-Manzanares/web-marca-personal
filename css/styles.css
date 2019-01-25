@@ -57,7 +57,7 @@ body{
     top: 0;
     z-index: 10;
     margin: 0 auto;
-    
+
 
 }
 
@@ -109,11 +109,14 @@ a{
     background-color: var(--colorNegro);
     padding:  0 30px;
     justify-content: center;
-    
-}
 
+}
+.container-main, .about-me,.container-portfolio,.container-contact{
+  max-width: 1440px;
+
+}
 .container-main{
-    max-width: 1024px;
+
     display: grid;
     grid-template-areas: "img-slider info-slider";
     grid-column-gap: 5em
@@ -180,7 +183,6 @@ strong{
 
 .about-me{
     display: flex;
-    max-width: 1024px;
     margin: 0 auto;
 
 }
@@ -195,7 +197,7 @@ strong{
     justify-items: center;
     padding: 30px 30px 0px 30px;
     grid-column-gap: 2em;
-       
+
 }
 
 .title-about{
@@ -300,18 +302,25 @@ strong{
         PORTFOLIO
 -----------------------------*/
 .portfolio{
-    display: grid;
-    grid-template-columns: repeat(3, auto );
-    grid-template-rows: repeat(2, auto);
-    grid-template-areas: "portfolio-titles portfolio-titles portfolio-titles"
-                         "porfolio-category porfolio-category porfolio-category"
-                         ;
-    grid-gap: 15px;
-    padding: 0 30px;
-    justify-items: center;
-    background-color: var(--colorNegro);
-    padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--colorNegro);
+  padding: 30px;
 
+
+
+
+}
+
+.container-portfolio{
+  display: grid;
+  grid-template-columns: repeat(3, auto );
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "portfolio-titles portfolio-titles portfolio-titles"
+                       "porfolio-category porfolio-category porfolio-category"
+                       ;
+  grid-gap: 15px;
+  justify-items: center;
 
 }
 
@@ -410,13 +419,20 @@ button,.btn:hover{
         CONTACT
 -----------------------------*/
 .contact{
-    display: grid;
-    grid-template: repeat(2,auto)/repeat(2,1fr);
-    grid-template-areas: "contact-titles contact-titles"
-                         "contact-info contact-form";
-    justify-items: center;
-    padding: 30px;
-    grid-gap: 15px
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.container-contact{
+
+  display: grid;
+  grid-template: repeat(2,auto)/repeat(2,auto);
+  grid-template-areas: "contact-titles contact-titles"
+                       "contact-info contact-form";
+  justify-items: center;
+  grid-gap: 3em;
+
 }
 
 .contact-titles{
@@ -446,11 +462,12 @@ button,.btn:hover{
 .contact-form{
     grid-area: contact-form;
     text-align: center;
+    max-width: 30em
 
 }
 input{
     margin-right: 5px;
-    width: 180px;
+    width: 90%;
     border-radius: 5px;
     border: 2px solid var(--colorCeleste);
     font-family: texts
@@ -463,7 +480,7 @@ input{
 textarea{
     display: block;
     border-radius: 5px;
-    width: 92%;
+    width: 90%;
     font-family: texts;
     border: 2px solid var(--colorCeleste);
     font-size: 14px
@@ -525,9 +542,28 @@ footer span{
 /*-----------------------------
         RESPONSIVE TABLET
 -----------------------------*/
+@media screen and (max-width:968px){
 
-@media screen and (max-width:768px) {
-  .about-me{
+  .container-aboutme{
+
+      grid-template-columns: repeat(2,1fr);
+      grid-template-areas: "title-about title-about"
+                           "about-me-subtitle-one about-me-img "
+                           "about-me-subtitle-two about-me-subtitle-two ";
+      }
+
+      .about-me .about-me-subtitle-two{
+         display: contents;
+
+      }
+
+      .about-me .skills {
+        width: 90%
+      }
+
+}
+@media screen and (max-width:768px ) {
+  .container-aboutme{
 
       grid-template-columns: repeat(2,1fr);
       grid-template-areas: "title-about title-about"
@@ -541,9 +577,7 @@ footer span{
          display: contents;
 
       }
-      .about-me-subtitle-two h3{
-        display: none;
-      }
+
       .about-me .skills {
         width: 90%
       }
@@ -553,13 +587,8 @@ footer span{
         width: auto;
       }
 
-      .contact-form input{
-        width: 90%
-      }
-
       #container {
     width: 100%;
 
 }
 }
-
