@@ -118,6 +118,7 @@ a{
 .container-main{
 
     display: grid;
+    grid-template-columns: repeat(2,1fr);
     grid-template-areas: "img-slider info-slider";
     grid-column-gap: 5em
 }
@@ -152,16 +153,17 @@ margin: 0 auto
 -----------------------------*/
 .titles{
     font-family: titles;
-    font-size: 35px;
+    font-size: 2.1em;
     color: var(--colorCeleste);
     text-transform: uppercase;
     margin-bottom: 25px
 }
 .subtitles-black,
 .subtitles{
-    font-size: 16px;
+    font-size: 1.2em;
 
-}.subtitles{
+}
+.subtitles{
 
     color: white;
 
@@ -184,6 +186,7 @@ strong{
 .about-me{
     display: flex;
     margin: 0 auto;
+    padding: 30px 30px 0px 30px;
 
 }
 
@@ -195,8 +198,10 @@ strong{
                          "about-me-subtitle-one about-me-img about-me-subtitle-two"
                          ". about-me-img .";
     justify-items: center;
-    padding: 30px 30px 0px 30px;
+    grid-template-flow
+
     grid-column-gap: 2em;
+
 
 }
 
@@ -319,19 +324,21 @@ strong{
   grid-template-areas: "portfolio-titles portfolio-titles portfolio-titles"
                        "porfolio-category porfolio-category porfolio-category"
                        ;
-  grid-gap: 15px;
+  grid-gap: 1em;
   justify-items: center;
 
 }
 
 .portfolio-titles{
     grid-area: portfolio-titles;
-    text-align: center
+    text-align: center;
+    padding-bottom: 1em
 
 }
 
 .porfolio-category {
     grid-area: porfolio-category;
+    display: none;
 }
 
 .porfolio-category ul li{
@@ -386,7 +393,7 @@ strong{
 }
 
 .titles-project{
-    font-size: 25px;
+    font-size: 1.5em;
     font-family: titles;
     color: var(--colorCeleste);
     padding: 10px 0
@@ -427,7 +434,7 @@ button,.btn:hover{
 .container-contact{
 
   display: grid;
-  grid-template: repeat(2,auto)/repeat(2,auto);
+  grid-template: repeat(2,auto)/repeat(2,1fr);
   grid-template-areas: "contact-titles contact-titles"
                        "contact-info contact-form";
   justify-items: center;
@@ -540,29 +547,10 @@ footer span{
   padding-bottom: .5em
 }
 /*-----------------------------
-        RESPONSIVE TABLET
+        RESPONSIVE DESKTOP
 -----------------------------*/
-@media screen and (max-width:968px){
 
-  .container-aboutme{
-
-      grid-template-columns: repeat(2,1fr);
-      grid-template-areas: "title-about title-about"
-                           "about-me-subtitle-one about-me-img "
-                           "about-me-subtitle-two about-me-subtitle-two ";
-      }
-
-      .about-me .about-me-subtitle-two{
-         display: contents;
-
-      }
-
-      .about-me .skills {
-        width: 90%
-      }
-
-}
-@media screen and (max-width:768px ) {
+@media screen and (max-width:968px ) {
   .container-aboutme{
 
       grid-template-columns: repeat(2,1fr);
@@ -590,5 +578,96 @@ footer span{
       #container {
     width: 100%;
 
+  }
 }
+@media screen and (max-width: 768px){
+ .titles{
+   font-size: 2em;
+ }
 }
+
+
+
+/*-----------------------------
+  RESPONSIVE TABLET MOVIL
+-----------------------------*/
+
+
+@media screen and (max-width:480px) {
+
+  .container-main{
+
+    grid-template-columns: 1fr;
+    grid-template-areas: "info-slider";
+    grid-column-gap: .5em;
+  }
+  .container-menu{
+    display: none;
+  }
+
+  .titles{
+    font-size: 1.5em;
+  }
+
+  .img-slider{
+      display: none;
+
+  }
+  .container-aboutme{
+
+      grid-template-columns: repeat(1,1fr);
+      grid-template-areas: "title-about"
+                           "about-me-subtitle-one"
+                           "about-me-img"
+                           "about-me-subtitle-two";
+
+
+
+      }
+
+      .about-me-subtitle-two h3{
+        padding-top: 25px;
+        text-align: center;
+      }
+
+
+      .container-portfolio{
+
+        grid-template-columns: repeat(1, auto );
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: "portfolio-titles"
+                             "porfolio-category";
+        grid-gap: .5em;
+        justify-items: center;
+
+      }
+
+      .porfolio-category{
+        display: none;
+      }
+
+      .portfolio-titles{
+        padding-bottom: .5em
+      }
+
+
+      .container-contact{
+
+
+        grid-template-columns: 1fr;
+        grid-template-areas: "contact-titles"
+                             "contact-form"
+                             "contact-info";
+        justify-items: center;
+        grid-gap: .5em;
+
+      }
+
+
+
+}
+
+
+/*-----------------------------
+  RESPONSIVE TABLET PORTRAIT
+-----------------------------*/
