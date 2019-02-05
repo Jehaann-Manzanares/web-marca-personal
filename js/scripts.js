@@ -7,7 +7,7 @@ Highcharts.chart('container', {
   
     title: {
       text: '',
-      x: -80
+      x: 80
     },
   
     pane: {
@@ -16,7 +16,7 @@ Highcharts.chart('container', {
   
     xAxis: {
       categories: ['HTML5', 'CSS3', 'JS', 'UI',
-        'UX', 'React.js'],
+        'BD', 'PHP'],
       tickmarkPlacement: 'on',
       lineWidth: 0,
       labels: {
@@ -45,14 +45,14 @@ Highcharts.chart('container', {
   
     legend: {
       align: 'right',
-      y: 70,
+      y: 80,
       layout: 'vertical',
       
     },
   
     series: [{
       
-      data: [80, 75, 60, 80, 89, 60],
+      data: [80, 75, 65, 80, 80, 70],
       pointPlacement: 'on'
     }]
   

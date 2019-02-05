@@ -109,6 +109,7 @@ a{
     background-color: var(--colorNegro);
     padding:  0 30px;
     justify-content: center;
+    box-sizing: border-box
 
 }
 .container-main, .about-me,.container-portfolio,.container-contact{
@@ -574,15 +575,12 @@ footer span{
       
 
       #container {
-    width: 100%;
+    
+        width: 100%;
+        
 
   }
 
-  .img-slider{
-    display: flex;
-    
-
-}
 }
 
 
@@ -692,5 +690,86 @@ footer span{
 
 
 /*-----------------------------
-  RESPONSIVE TABLET PORTRAIT
+  RESPONSIVE TABLET LANSCAPE
 -----------------------------*/
+@media (orientation: landscape) {
+
+    .container-main{
+
+        grid-template-columns: 1fr;
+        grid-template-areas: "info-slider";
+        grid-column-gap: .5em;
+      }
+      .container-menu{
+        display: none;
+      }
+    
+      .titles{
+        font-size: 1.5em;
+      }
+    
+      .img-slider{
+          display: none;
+    
+      }
+      .container-aboutme{
+    
+          grid-template-columns: repeat(1,1fr);
+          grid-template-areas: "title-about"
+                               "about-me-subtitle-one"
+                               "about-me-img"
+                               "about-me-subtitle-two";
+    
+    
+    
+          }
+    
+          .about-me-subtitle-two h3{
+            padding-top: 25px;
+            text-align: center;
+          }
+    
+    
+          .container-portfolio{
+    
+            grid-template-columns: repeat(1, auto );
+            grid-template-rows: repeat(2, auto);
+            grid-template-areas: "portfolio-titles"
+                                 "porfolio-category";
+            grid-gap: .5em;
+            justify-items: center;
+    
+          }
+    
+          .porfolio-category{
+            display: none;
+          }
+    
+          .portfolio-titles{
+            padding-bottom: .5em
+          }
+    
+    
+          .container-contact{
+    
+    
+            grid-template-columns: 1fr;
+            grid-template-areas: "contact-titles"
+                                 "contact-form"
+                                 "contact-info";
+            justify-items: center;
+            grid-gap: .5em;
+    
+          }
+    
+          .social-icons{
+            text-align: center
+       }
+    
+        
+    
+    
+    
+    }
+   
+}
