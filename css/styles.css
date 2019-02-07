@@ -34,6 +34,7 @@ font-family: texts;
     src: url("../fonts/Poppins-Light.ttf");
 }
 
+
 body{
     font-family: texts;
 }
@@ -59,6 +60,21 @@ body{
     margin: 0 auto;
 
 
+}
+
+.burger-button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("../icons/menu.svg");
+    display: none;
+    line-height: 40px;
+    position: fixed;
+    text-align: center;
+    z-index: 11;
+    right: 1em;
+    bottom: 1em;
+    color: white
 }
 
 
@@ -584,8 +600,11 @@ footer span{
 }
 
 
-@media screen and (max-width: 768px){
- .titles{
+@media screen and (max-width: 767px){
+ .menu{
+     display: none
+ }
+    .titles{
    font-size: 2em;
  }
 
@@ -598,8 +617,10 @@ footer span{
     
     padding: .2em 0;
 }
-
-
+.burger-button{
+ display: block;
+}
+}
 
 
 
@@ -686,90 +707,4 @@ footer span{
 
 
 
-}
-
-
-/*-----------------------------
-  RESPONSIVE TABLET LANSCAPE
------------------------------*/
-@media (orientation: landscape) {
-
-    .container-main{
-
-        grid-template-columns: 1fr;
-        grid-template-areas: "info-slider";
-        grid-column-gap: .5em;
-      }
-      .container-menu{
-        display: none;
-      }
-    
-      .titles{
-        font-size: 1.5em;
-      }
-    
-      .img-slider{
-          display: none;
-    
-      }
-      .container-aboutme{
-    
-          grid-template-columns: repeat(1,1fr);
-          grid-template-areas: "title-about"
-                               "about-me-subtitle-one"
-                               "about-me-img"
-                               "about-me-subtitle-two";
-    
-    
-    
-          }
-    
-          .about-me-subtitle-two h3{
-            padding-top: 25px;
-            text-align: center;
-          }
-    
-    
-          .container-portfolio{
-    
-            grid-template-columns: repeat(1, auto );
-            grid-template-rows: repeat(2, auto);
-            grid-template-areas: "portfolio-titles"
-                                 "porfolio-category";
-            grid-gap: .5em;
-            justify-items: center;
-    
-          }
-    
-          .porfolio-category{
-            display: none;
-          }
-    
-          .portfolio-titles{
-            padding-bottom: .5em
-          }
-    
-    
-          .container-contact{
-    
-    
-            grid-template-columns: 1fr;
-            grid-template-areas: "contact-titles"
-                                 "contact-form"
-                                 "contact-info";
-            justify-items: center;
-            grid-gap: .5em;
-    
-          }
-    
-          .social-icons{
-            text-align: center
-       }
-    
-        
-    
-    
-    
-    }
-   
 }
