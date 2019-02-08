@@ -1,15 +1,18 @@
 const ipad = window.matchMedia('screen and (max-width: 767px)');
 const menu = document.querySelector('.menu');
-
+const logo = document.querySelector('.logo')
 const BurgerButton = document.querySelector('#burger-menu');
+
 
 ipad.addListener(validation)
 
     function validation(event) {
       if (event.matches) {
-        BurgerButton.addEventListener('click', hideShow)
+        BurgerButton.addEventListener('click', hideShow);
+        
       }else{
         BurgerButton.removeEventListener('click',hideShow)
+        logo.innerHTML = "{Jehaann Manzanares}"
       }
     }
 
@@ -20,12 +23,15 @@ ipad.addListener(validation)
         menu.classList.remove('is-active');
       }else{
         menu.classList.add('is-active');
+        
       }
     }
     /*Ocultar menu al hacer click en una opcion */
     menu.addEventListener('click', function(){
       menu.classList.remove('is-active');
     });
+
+
 
 Highcharts.chart('container', {
 

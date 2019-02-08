@@ -81,6 +81,7 @@ body{
 
 .logo{
     grid-area: logo;
+    
 
 }
 
@@ -624,8 +625,12 @@ footer span{
     }
 
     .logo{
-        text-align: center;
-        box-sizing: border-box
+        margin: 0 auto;
+        background-image: url('../icons/logo-Jehaann-manzanares.svg');
+        width: 15em;
+        height: 12em;
+        background-size: 15em 12em;
+        background-repeat: no-repeat    
     }
 
 
@@ -712,8 +717,8 @@ footer span{
 
 
 
-    transition: .3s;
-                        }
+    
+}
 
       .about-me-subtitle-two h3{
         padding-top: 25px;
@@ -757,7 +762,13 @@ footer span{
         text-align: center
    }
 
+   .logo{
     
+    width: 12em;
+    height: 9em;
+    background-size: 12em 9em;
+        
+} 
 
 
 
