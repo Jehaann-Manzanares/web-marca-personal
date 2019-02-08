@@ -123,7 +123,7 @@ a{
 .main-slider{
     display: flex;
     background-color: var(--colorNegro);
-    padding:  0 30px;
+    padding:  3em;
     justify-content: center;
     box-sizing: border-box
 
@@ -434,7 +434,7 @@ strong{
 
 button,.btn:hover{
 
-    background-image: var(--degradado);
+ background-image: var(--degradado);
  border: 2px solid var(--colorCeleste);
  color: white
 }
@@ -601,12 +601,59 @@ footer span{
 
 
 @media screen and (max-width: 767px){
- .menu{
-     display: none
- }
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr .1fr .5fr;
+        grid-template-areas: "logo"
+                             "container-menu"
+                             ".";
+        background-image: var(--degradado);
+        color: white;
+        position: fixed;
+        top: 0;
+        z-index: 12;
+        margin: 0 auto;
+        left: -110vw;
+        width: 60vw;
+        height: 100vh;
+        transition: .3s;
+        box-sizing: border-box
+    
+    
+    }
+
+    .logo{
+        text-align: center;
+        box-sizing: border-box
+    }
+
+
+    .container-menu .btn{
+        border-color: white;
+        color: white;
+        
+    }
+
+    
+
+    .menu.is-active {
+        left: 0;
+      }
+
+    .container-menu{
+        display: flex;
+       
+        justify-content: center
+    }
+
+    .container-menu ul li{
+        display: block;
+        padding: 1em
+    } 
     .titles{
    font-size: 2em;
- }
+    }
 
  .subtitles-project {
     color: white;
@@ -620,6 +667,7 @@ footer span{
 .burger-button{
  display: block;
 }
+
 }
 
 
@@ -630,16 +678,21 @@ footer span{
 
 
 @media screen and (max-width:480px) {
-
+  
+    .menu{
+       
+        width: 80vw;
+        
+    
+    
+    }
   .container-main{
 
     grid-template-columns: 1fr;
     grid-template-areas: "info-slider";
     grid-column-gap: .5em;
   }
-  .container-menu{
-    display: none;
-  }
+  
 
   .titles{
     font-size: 1.5em;
@@ -659,7 +712,8 @@ footer span{
 
 
 
-      }
+    transition: .3s;
+                        }
 
       .about-me-subtitle-two h3{
         padding-top: 25px;
