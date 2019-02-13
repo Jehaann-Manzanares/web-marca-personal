@@ -34,6 +34,10 @@ font-family: texts;
     src: url("../fonts/Poppins-Light.ttf");
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 
 body{
     font-family: texts;
@@ -58,6 +62,7 @@ body{
     top: 0;
     z-index: 10;
     margin: 0 auto;
+    transition: top 0.5s;
 
 
 }
@@ -304,7 +309,8 @@ strong{
     background-size: 50px 50px;
     padding: 0 15px;
     display: inline-block;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    
 
 
 }
@@ -437,7 +443,7 @@ button,.btn:hover{
 
  background-image: var(--degradado);
  border: 2px solid var(--colorCeleste);
- color: white
+ color: white;
 }
 
 
@@ -769,7 +775,5 @@ footer span{
     background-size: 12em 9em;
         
 } 
-
-
 
 }

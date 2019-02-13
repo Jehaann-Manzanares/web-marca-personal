@@ -1,0 +1,12 @@
+/****
+MENU
+****/
+.container-menu ul li a:hover, .logo:hover  {
+    
+   color: var(--colorCeleste)
+}
+
+/****
+FOOTER
+****/
+
