@@ -75,3 +75,53 @@ FOOTER
     }
 
 }
+
+
+.fadeInLeft{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft ;
+
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: fadeInLeft ;
+}
+
+@keyframes fadeInLeft {
+
+    from{
+        opacity: 0;
+        transform: translatex(-20px); 
+        -webkit-transform: translatex(-20px)
+    }
+    to{
+        opacity: 1;
+        transform: translatex(-100);
+        -webkit-transform: translatex(-100)
+    }
+
+}
+
+.fadeInRight{
+
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: fadeInRight;
+
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: fadeInRight;
+}
+
+@keyframes fadeInRight{
+    from{
+            opacity: 0;
+            transform: translatex(-100);
+            -webkit-transform: translatex(-100);
+    }to{
+            opacity: 1;
+            transform: translatex(-20px);
+            -webkit-transform: translatex(-20px);
+
+    }
+}
