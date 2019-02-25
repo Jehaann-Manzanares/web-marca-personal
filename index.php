@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jehaann Manzanares</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/animaciones.css">
-
+    <?php wp_head(); ?>
 </head>
 <body>
     <i class="icon-menu burger-button" id="burger-menu"></i>
     <header class="menu" id="navbar">
-        <a href="#main-slider"><h1 class="logo"></h1></a> 
+        <a href="#main-slider"><h1 class="logo"></h1></a>
         <nav class="container-menu fadeIn">
              <ul>
                  <li><a href="#about-me">Sobre mi</a></li>
@@ -26,7 +24,7 @@
     <div class="container-main">
         <div class="img-slider fadeInLeft">
             <figure>
-                <img src="images/Perfil-jehaann-manzanares.png" alt="jehaann-manzanares.png">
+                <img src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.png' alt="jehaann-manzanares.png">
             </figure>
         </div>
 
@@ -71,7 +69,7 @@
         </div>
         <div class="about-me-img">
             <figure>
-                <img src="images/jehaann-Manzanares.png" alt="sobre-jehaann-manzanares" class="img-about-me">
+                <img src='<?php echo RutaImagenes?>/jehaann-Manzanares.png' alt="sobre-jehaann-manzanares" class="img-about-me">
             </figure>
         </div>
         <div class="about-me-subtitle-two">
@@ -116,7 +114,7 @@
         <article class="project">
                 <div  class="project-container">
                     <figure class="image-container">
-                        <img src="images/work1.jpg" alt="sistema web" class="img-project">
+                        <img src='<?php echo RutaImagenes?>/work1.jpg' alt="sistema web" class="img-project">
                     </figure>
                     <span class="project-info">
                         <p >
@@ -130,7 +128,7 @@
         <article class="project">
             <div  class="project-container">
                 <figure>
-                    <img src="images/portfolio_details.jpg" alt="projecto1" class="img-project">
+                    <img src='<?php echo RutaImagenes?>/portfolio_details.jpg' alt="projecto1" class="img-project">
                 </figure>
                 <span class="project-info">
                     <p >
@@ -144,7 +142,7 @@
         <article class="project">
             <div  class="project-container">
                 <figure>
-                    <img src="images/portfolio_details.jpg" alt="projecto1" class="img-project">
+                    <img src='<?php echo RutaImagenes?>/portfolio_details.jpg' alt="projecto1" class="img-project">
                 </figure>
                 <span class="project-info">
                     <p >
@@ -190,6 +188,7 @@
         </div>
     </div>
     </section>
+
     <footer class="footer">
         <h2 class="titles">Sigueme en las redes</h2>
         <div class="social-icons">
@@ -204,10 +203,7 @@
                 <p class="subtitles">De LATAM  para el mundo</p>
         </div>
     </footer>
-
-    <script src="js/highcharts.js"></script>
-    <script src="https://code.highcharts.com/highcharts-more.js"></script>
-    <script src="js/scripts.js"></script>
+    <?php wp_footer(); ?>
 </body>
 
 

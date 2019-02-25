@@ -86,7 +86,7 @@ body{
 
 .logo{
     grid-area: logo;
-    
+
 
 }
 
@@ -147,7 +147,7 @@ a{
     grid-template-columns: .7fr 1fr;
     grid-template-areas: "img-slider info-slider";
     grid-column-gap: 2em;
-    
+
 }
 
 
@@ -225,7 +225,7 @@ strong{
                          "about-me-subtitle-one about-me-img about-me-subtitle-two"
                          ". about-me-img .";
     justify-items: center;
-   
+
 
     grid-column-gap: 2em;
 
@@ -314,7 +314,7 @@ strong{
     padding: 0 15px;
     display: inline-block;
     background-repeat: no-repeat;
-    
+
 
 
 }
@@ -529,7 +529,7 @@ textarea{
 -----------------------------*/
 
 .footer{
-    
+
     display: grid;
     align-items: center;
     justify-items: center;
@@ -538,7 +538,7 @@ textarea{
 }
 
 .social-icons{
-     
+
 }
 
 .sub-footer{
@@ -600,12 +600,12 @@ footer span{
         width: 90%
       }
 
-      
+
 
       #container {
-    
+
         width: 100%;
-        
+
 
   }
 
@@ -631,8 +631,8 @@ footer span{
         height: 120vh;
         transition: .3s;
         box-sizing: border-box
-    
-    
+
+
     }
 
     .logo{
@@ -641,17 +641,17 @@ footer span{
         width: 15em;
         height: 12em;
         background-size: 15em 12em;
-        background-repeat: no-repeat    
+        background-repeat: no-repeat
     }
 
 
     .container-menu .btn{
         border-color: white;
         color: white;
-        
+
     }
 
-    
+
 
     .menu.is-active {
         left: 0;
@@ -659,30 +659,33 @@ footer span{
 
     .container-menu{
         display: flex;
-       
+
         justify-content: center
     }
 
     .container-menu ul li{
         display: block;
         padding: 1em
-    } 
+    }
     .titles{
    font-size: 2em;
     }
 
- .subtitles-project {
-    color: white;
-    padding: .5em 0 1em 0;
-}
 
-.titles-project {
-    
-    padding: .2em 0;
-}
+
 .burger-button{
  display: block;
 }
+
+.titles-project{
+    font-size: 1em;
+    padding: .5em 0
+}
+.subtitles-project{
+    color: white;
+    padding: 1em 0 2em 0
+ }
+
 
 }
 
@@ -694,13 +697,13 @@ footer span{
 
 
 @media screen and (max-width:480px) {
-  
+
     .menu{
-       
+
         width: 80vw;
-        
-    
-    
+
+
+
     }
   .container-main{
 
@@ -708,7 +711,7 @@ footer span{
     grid-template-areas: "info-slider";
     grid-column-gap: .5em;
   }
-  
+
 
   .titles{
     font-size: 1.5em;
@@ -728,7 +731,7 @@ footer span{
 
 
 
-    
+
 }
 
       .about-me-subtitle-two h3{
@@ -774,11 +777,11 @@ footer span{
    }
 
    .logo{
-    
+
     width: 12em;
     height: 9em;
     background-size: 12em 9em;
-        
-} 
+
+}
 
 }
