@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Jehaann Manzanares</title>
-    <?php wp_head(); ?>
-</head>
-<body>
-    <i class="icon-menu burger-button" id="burger-menu"></i>
-    <header class="menu" id="navbar">
-        <a href="#main-slider"><h1 class="logo"></h1></a>
-        <nav class="container-menu fadeIn">
-             <ul>
-                 <li><a href="#about-me">Sobre mi</a></li>
-                 <li><a href="#portfolio">Portfolio</a></li>
-                 <li><a href="#contact"><button class="btn">Contactar</button></a></li>
-             </ul>
-        </nav>
-    </header>
-<section id="main-slider" class="main-slider ">
-
+<?php get_header();?>
     <div class="container-main">
         <div class="img-slider fadeInLeft">
             <figure>
@@ -188,23 +166,4 @@
         </div>
     </div>
     </section>
-
-    <footer class="footer">
-        <h2 class="titles">Sigueme en las redes</h2>
-        <div class="social-icons">
-            <a href="https://www.facebook.com/JehaannManzanares/"><i class="facebook"></i></a>
-            <a href="https://twitter.com/JehanManzanares"><i class="twitter"></i></a>
-            <a href="https://www.instagram.com/jehaannmanzanares/"><i class="intagram"></i></a>
-            <a href="https://www.linkedin.com/in/jehaann-manzanares-153740140/"><i class="linkedIn"></i></a>
-            <a href="https://github.com/Jehaann07"><i class="github"></i></a>
-        </div>
-        <span>d</span>
-        <div class="sub-footer">
-                <p class="subtitles">De LATAM  para el mundo</p>
-        </div>
-    </footer>
-    <?php wp_footer(); ?>
-</body>
-
-
-</html>
+    <?php get_footer();?>
