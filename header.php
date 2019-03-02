@@ -29,4 +29,3 @@
              </ul>
         </nav>
     </header>
-<section id="main-slider" class="main-slider ">
