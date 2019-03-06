@@ -19,3 +19,9 @@ define('RutaImagenes',RutaTema.'/images');
 //cargando estilos y script
 
 require_once('includes/scripts-styles.php');
+
+
+//Registrando Sidebars interactivos
+
+
+require_once('includes/sidebars.php');

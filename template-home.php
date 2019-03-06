@@ -169,12 +169,15 @@
             </div>
         </div>
         <div class="contact-form">
-          <form action="" class="contact-form">
+                <?php if (is_active_sidebar('contact-widget')) {
+                    dynamic_sidebar('contact-widget');
+                }?>
+          <!-- <form action="" class="contact-form">
               <input type="text" placeholder="Hola mi Nombre es">
               <input type="email" placeholder="Mi email">
               <textarea name="mensage" id="" cols="30" rows="10" placeholder="Comentame de las ideas de tu proyecto y yo las hago realidad.."></textarea>
               <button class="btn">Enviar mensaje</button>
-          </form>
+          </form> -->
         </div>
     </div>
     </section>
