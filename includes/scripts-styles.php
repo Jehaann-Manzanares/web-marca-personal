@@ -11,7 +11,7 @@
 //Registrando y cargando hojas de estilos
 function jehaann_style(){
   wp_register_style('style', get_stylesheet_uri(),'','1.0','all');
-
+  
   //cargando hojas de estilos
 
   wp_enqueue_style('style');
