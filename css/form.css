@@ -1,2 +1,20 @@
 
-  form>p{margin:1rem 0}form input[type="text"],form input[type="email"],form input[type="url"],form input[type="password"],form input[type="number"],form input[type="tel"],form input[type="range"],form input[type="date"],form input[type="month"],form input[type="week"],form input[type="time"],form input[type="datetime"],form input[type="datetime-local"],form input[type="color"]{width:100%;border:none;border:1px solid rgba(42,55,62,0.3);outline:none;padding:.375rem 1.25rem;font-family:'Poppins',sans-serif;font-size:1rem;color:#444}form input[type="text"]:focus,form input[type="email"]:focus,form input[type="url"]:focus,form input[type="password"]:focus,form input[type="number"]:focus,form input[type="tel"]:focus,form input[type="range"]:focus,form input[type="date"]:focus,form input[type="month"]:focus,form input[type="week"]:focus,form input[type="time"]:focus,form input[type="datetime"]:focus,form input[type="datetime-local"]:focus,form input[type="color"]:focus{border:1px solid #0089e0}form textarea{width:100%;border:1px solid rgba(42,55,62,0.3);outline:none;padding:.375rem 1.25rem;font-family:'Poppins',sans-serif;font-size:1rem;color:#444;height:9.375rem;min-height:9.375rem;max-height:18.75rem;max-width:100%;min-width:100%}form textarea:focus{border:1px solid #0089e0}form input[type="submit"],form input[type="button"]{background:none;border:none;display:inline-block;border:1px solid #0089e0;padding:.375rem 1.25rem;transition:all .3s ease;color:#0089e0;font-family:'Poppins',sans-serif;font-size:1rem;cursor:pointer}form input[type="submit"]:hover,form input[type="button"]:hover{background:#0089e0;color:#fff}
+  form>p{margin:1rem 0}form input[type="text"],form input[type="email"],form input[type="url"],form input[type="password"],form input[type="number"],form input[type="tel"],form input[type="range"],form input[type="date"],form input[type="month"],form input[type="week"],form input[type="time"],form input[type="datetime"],form input[type="datetime-local"],form input[type="color"]{width:100%;border:none;border:1px solid rgba(42,55,62,0.3);outline:none;padding:.375rem 1.25rem;font-family:'Poppins',sans-serif;font-size:1rem;color:#444}form input[type="text"]:focus,form input[type="email"]:focus,form input[type="url"]:focus,form input[type="password"]:focus,form input[type="number"]:focus,form input[type="tel"]:focus,form input[type="range"]:focus,form input[type="date"]:focus,form input[type="month"]:focus,form input[type="week"]:focus,form input[type="time"]:focus,form input[type="datetime"]:focus,form input[type="datetime-local"]:focus,form input[type="color"]:focus{border:1px solid #0089e0}form textarea{width:100%;border:1px solid rgba(42,55,62,0.3);outline:none;padding:.375rem 1.25rem;font-family:'Poppins',sans-serif;font-size:1rem;color:#444;height:9.375rem;min-height:9.375rem;max-height:18.75rem;max-width:100%;min-width:100%}form textarea:focus{border:1px solid #0089e0}
+  
+  form input[type="submit"],form input[type="button"]
+  {
+      background:transparent;
+      display:inline-block;
+      border:1px solid #0089e0;
+      padding:.375rem 1.25rem;
+      transition:all .3s ease;
+      color:white;
+      font-family:'Poppins',sans-serif;
+      font-size:1rem;cursor:pointer
+    }
+  
+  form input[type="submit"]:hover,form input[type="button"]:hover
+  {
+   background:#0089e0;
+   color:#fff
+  }
