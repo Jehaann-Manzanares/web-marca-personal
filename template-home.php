@@ -13,9 +13,11 @@
 <section id="main-slider" class="main-slider ">
     <div class="container-main">
         <div class="img-slider fadeInLeft">
-            <figure>
+            
+             <figure>
                 <img src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.png' alt="jehaann-manzanares.png">
-            </figure>
+             </figure>
+        
         </div>
 
 

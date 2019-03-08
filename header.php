@@ -20,7 +20,7 @@
 <body>
     <i class="icon-menu burger-button" id="burger-menu"></i>
     <header class="menu" id="navbar">
-        <a href="#main-slider"><h1 class="logo"></h1></a>
+        <a href="<?php echo home_url(); ?>"><h1 class="logo"></h1></a>
         <nav class="container-menu fadeIn">
              <ul>
                  <li><a href="#about-me">Sobre mi</a></li>

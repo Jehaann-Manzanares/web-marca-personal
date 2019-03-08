@@ -507,7 +507,14 @@ input{
     width: 90%;
     border-radius: 5px;
     border: 2px solid var(--colorCeleste);
-    font-family: texts
+    font-family: texts;
+    background-color: transparent
+}
+
+input{
+    
+    background-color: var(--colorCeleste);
+    color: white
 }
 .contact-form input, textarea,.contact-form button {
     margin: 10px;
@@ -537,14 +544,6 @@ textarea{
     padding: 30px;
 }
 
-.social-icons{
-
-}
-
-.sub-footer{
-
-
-}
 
 .facebook{
     background-image: url("../icons/facebook.svg")
