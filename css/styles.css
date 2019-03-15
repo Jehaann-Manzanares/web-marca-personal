@@ -120,7 +120,7 @@ a{
     color: var(--colorCeleste);
     padding: 5px 25px;
     border-radius: 5px;
-    border: 2px solid var(--colorCeleste)
+    border: .5px solid var(--colorCeleste)
 
 }
 /*-----------------------------
@@ -133,8 +133,8 @@ a{
     justify-content: center;
     box-sizing: border-box;
     background-image: url(../images/main-slider.png);
-    object-fit: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    
 
 }
 .container-main, .about-me,.container-portfolio,.container-contact{
@@ -446,8 +446,8 @@ strong{
 
 button,.btn:hover{
 
- background-image: var(--degradado);
- border: 2px solid var(--colorCeleste);
+ background-color: var(--colorAzul);
+ border: .5px solid var(--colorCeleste);
  color: white;
 }
 
@@ -619,7 +619,7 @@ footer span{
         grid-template-areas: "logo"
                              "container-menu"
                              ".";
-        background-image: var(--degradado);
+        background-color: rgba(0, 0, 0,0.9);
         color: white;
         position: fixed;
         top: 0;
@@ -642,14 +642,6 @@ footer span{
         background-size: 15em 12em;
         background-repeat: no-repeat
     }
-
-
-    .container-menu .btn{
-        border-color: white;
-        color: white;
-
-    }
-
 
 
     .menu.is-active {
@@ -686,6 +678,7 @@ footer span{
  }
 
 
+
 }
 
 
@@ -699,10 +692,7 @@ footer span{
 
     .menu{
 
-        width: 80vw;
-
-
-
+        width: 85vw;
     }
   .container-main{
 
@@ -783,4 +773,54 @@ footer span{
 
 }
 
+.container-blog .blog-post{
+    
+    width: 80%;
+    
+}
+
+.blog .container-blog{
+    display: block;
+    
+}
+
+
+
+}
+
+.blog{
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    margin-bottom: 2em;
+    
+}
+.container-blog{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.container-blog-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2em
+}
+
+.blog-post{
+    display: inline-block;
+    height: auto;
+    width: 25%;
+    padding: 1em;
+    margin: 1em;
+    background-color: black
+}
+
+.blog-post img{
+ box-sizing: border-box;
+ height: auto;
+ width: 100%;
 }
