@@ -3,7 +3,7 @@
 <section class="blog">
 <div class="container-blog-image" style="background-image: url('<?php echo RutaImagenes ?>/main-slider.png')">
             <h1 class="titles-project">Entradas del Blog</h1>
-    </div>
+</div>
  <div class="container-blog">
     <article class="blog-post">
             <picture>
