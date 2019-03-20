@@ -180,8 +180,12 @@ blockquote {
     font-family: titles;
     font-size: 1em;
     color: var(--colorCeleste);
-    padding: 1em 0 1em 0;
-    border-: var(--colorCeleste) solid 1px 
+    padding: 1em 2em 1em 0;
+    border-left: var(--colorCeleste) solid 3px 
+}
+
+cite{
+    padding-left: 1em
 }
 /*-----------------------------
         TITLES
@@ -510,6 +514,7 @@ button,.btn:hover{
     max-width: 30em
 
 }
+/*
 input{
     margin-right: 5px;
     width: 90%;
@@ -537,7 +542,7 @@ textarea{
     border: 2px solid var(--colorCeleste);
     font-size: 14px
 }
-
+*/
 
 /*-----------------------------
         FOOTER
@@ -759,7 +764,7 @@ footer span{
 
       .container-contact{
 
-
+        display: grid;
         grid-template-columns: 1fr;
         grid-template-areas: "contact-titles"
                              "contact-form"
@@ -791,6 +796,16 @@ footer span{
     display: block;
     
 }
+.content-post{
+    
+    grid-template-columns: 1fr!important;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: "article "
+                        "sidebar-principal";
+    
+
+}
+
 
 
 
@@ -839,7 +854,9 @@ footer span{
   FIGURE -IMG
 -----------------------------*/
 figure{
-    
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
 }
 /*-----------------------------
   SINGLE PAGE
@@ -848,7 +865,9 @@ figure{
 .content-post{
     display: grid;
     grid-template-columns: 1fr 30%;
-    grid-template-areas: "article sidebar-principal";
+    grid-auto-rows: 1fr 1fr;
+    grid-template-areas: "article sidebar-principal"
+                          "article .";
     padding: 2.5em;
     grid-gap: 2em
 
@@ -878,8 +897,83 @@ figure{
 
 .sidebar-principal{
     
-    display: flex;
+    display: inline-block;
+    justify-content: center;
+    box-shadow: 1px 1px 10px rgba(203, 203, 203, 0.9);
+    border-top: 3px solid var(--colorCeleste);
+    border-bottom: 3px solid var(--colorCeleste);
+    padding: 2em;
+    margin-top: 2em
     
-    justify-content: center
+}
+
+.contenedor-info h1, p{
+ padding: .5em;  
+}
+
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+  }
+
+.gidgets-seconds{
+    display: inline-block;
+}
+
+.widget a{
+    font-size: 1em;
+    color: var(--colorNegro);
+    padding: 1em
+}
+
+.widget a:hover{
     
+    color: var(--colorCeleste);
+    
+}
+
+.widget h3{
+
+    border-bottom: 3px solid var(--colorCeleste);
+    margin: 1em 0
+}
+
+.widget-title{
+    padding: .5em
+}
+
+.screen-reader-text{
+    display: none
+}
+
+
+.gidgets-seconds .widget_search .search-form input[type="submit"]{
+    
+    border-radius: 5px;
+    border: 1px solid var(--colorCeleste);
+    font-family: texts;
+    background-color: transparent;
+    color: var(--colorCeleste)
+}
+
+.gidgets-seconds .widget_search .search-form input[type="submit"]:hover{
+    
+    
+    border: 1px solid var(--colorCeleste);
+    background-color: var(--colorAzul);
+    color: white
+}
+
+.gidgets-seconds .widget_search .search-form input[type="search"]{
+    
+    background-color: transparent;
+    padding: .8em;
+    margin: .5em;
+    border-style: none;
+    border: 1px solid var(--colorCeleste);
+    border-radius: 5px;
+    
+
 }
