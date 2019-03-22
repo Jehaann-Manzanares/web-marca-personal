@@ -15,7 +15,7 @@ archivos con el sidebar del tema
         <div class="contenedor-info">
             <h1>Autor: Jehaann Manzanares</h1>
             <p>Frontend/Backend developer</p>
-            <p><strong>Categoria:</strong>Uncategorized</p>
+            
         </div>
         
     </section>
