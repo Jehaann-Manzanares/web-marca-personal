@@ -765,7 +765,9 @@ figure{
     border: 1px solid var(--colorCeleste);
     font-family: texts;
     background-color: transparent;
-    color: var(--colorCeleste)
+    color: var(--colorCeleste);
+    padding: .5em;
+}
 }
 
 .widget_search .search-form input[type="submit"]:hover{
