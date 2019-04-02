@@ -134,7 +134,7 @@ a{
     box-sizing: border-box;
     background-image: url(../images/main-slider.png);
     background-repeat: no-repeat;
-    
+
 
 }
 .container-main, .about-me,.container-portfolio,.container-contact{
@@ -181,7 +181,7 @@ blockquote {
     font-size: 1em;
     color: var(--colorCeleste);
     padding: 1em 2em 1em 0;
-    border-left: var(--colorCeleste) solid 3px 
+    border-left: var(--colorCeleste) solid 3px
 }
 
 cite{
@@ -481,6 +481,7 @@ button,.btn:hover{
                        "contact-info contact-form";
   justify-items: center;
   grid-gap: 3em;
+  margin-right: 1em;
 
 }
 
@@ -525,7 +526,7 @@ input{
 }
 
 input{
-    
+
     background-color: var(--colorCeleste);
     color: white
 }
@@ -630,13 +631,13 @@ footer span{
     width: 100%;
     margin-bottom: 2em;
     box-sizing: border-box;
-    
-    
+
+
 }
 .container-blog{
     display: flex;
     justify-content: center;
-    
+
 }
 .container-blog-image{
     display: flex;
@@ -691,7 +692,7 @@ figure{
 }
 .sidebar-principal{
     grid-area: sidebar-principal;
-    
+
 
 }
 
@@ -709,7 +710,7 @@ figure{
 }
 
 .sidebar-principal{
-    
+
     display: inline-block;
     justify-content: center;
     box-shadow: 1px 1px 10px rgba(203, 203, 203, 0.9);
@@ -717,11 +718,11 @@ figure{
     border-bottom: 3px solid var(--colorCeleste);
     padding: 2em;
     margin-top: 2em
-    
+
 }
 
 .contenedor-info h1, p{
- padding: .5em;  
+ padding: .5em;
 }
 
 
@@ -738,9 +739,9 @@ figure{
 }
 
 .widget a:hover{
-    
+
     color: var(--colorCeleste);
-    
+
 }
 
 .widget h3{
@@ -759,7 +760,7 @@ figure{
 
 
 .widget_search .search-form input[type="submit"]{
-    
+
     border-radius: 5px;
     border: 1px solid var(--colorCeleste);
     font-family: texts;
@@ -768,22 +769,22 @@ figure{
 }
 
 .widget_search .search-form input[type="submit"]:hover{
-    
-    
+
+
     border: 1px solid var(--colorCeleste);
     background-color: var(--colorAzul);
     color: white
 }
 
 .gidgets-seconds  input[type="search"]{
-    
+
     background-color: transparent;
     padding: .8em;
     margin: .5em;
     border-style: none;
     border: 1px solid var(--colorCeleste);
     border-radius: 5px;
-    
+
 
 }
 
@@ -859,12 +860,12 @@ figure{
  }
 
  .content-post{
-    
+
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
     grid-template-areas: "article"
                          "sidebar-principal";
-   
+
 }
 
 .gidgets-seconds{
@@ -876,9 +877,9 @@ figure{
 }
 
 .gidgets-seconds input[type="search"]{
-    
+
     width: 90%
-    
+
 
 }
 
@@ -974,15 +975,14 @@ figure{
 }
 
 .container-blog .blog-post{
-    
+
     width: 80%;
-    
+
 }
 
 .blog .container-blog{
     display: block;
-    
-}
 
 }
 
+}
