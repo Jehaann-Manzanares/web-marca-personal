@@ -11,7 +11,7 @@
 //Registrando y cargando hojas de estilos
 function jehaann_style(){
   wp_register_style('style', get_stylesheet_uri(),'','1.0','all');
-  
+
   //cargando hojas de estilos
 
   wp_enqueue_style('style');
@@ -28,12 +28,8 @@ add_action('wp_enqueue_scripts','jehaann_style');
 
 function jehaann_scripts(){
 
-  wp_register_script('highcharts',RutaTema.'/js/highcharts.js','','7.0.1','True');
-  wp_register_script('highcharts-more','https://code.highcharts.com/highcharts-more.js','','1.0','True');
-  wp_register_script('scripts',RutaTema.'/js/scripts.js','','1.0','True');
 
-  wp_enqueue_script('highcharts');
-  wp_enqueue_script('highcharts-more');
+  wp_register_script('scripts',RutaTema.'/js/scripts.js','','1.0','True');
   wp_enqueue_script('scripts');
 
 

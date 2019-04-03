@@ -10,33 +10,25 @@
 */
 ?>
 <?php get_header();?>
-<section id="main-slider" class="main-slider ">
+<section id="main-slider" class="main-slider">
     <div class="container-main">
+        <div class="info-grapich slide fadeInRight ">
+            <div class="info-slider centrado">
+                <h2 class="titles"> <strong>Soy Desarrallador Web</strong></h2>
+                <p class="subtitles">Diseño y desarrollo sistemas completos, interfaces funcionales que se adaptan a todos los dispositivos y con el mas alto rendimiento.</p>
+                <a href="#contact" class="btn">Contactar</a>
+                <a href="#portfolio" class="btn works">Ver trabajos</a>
+            </div>
+        </div>
         <div class="img-slider fadeInLeft">
-            
              <figure>
                 <img src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.png' alt="jehaann-manzanares.png">
              </figure>
-        
-        </div>
-
-
-        <div class="info-grapich slide fadeInRight ">
-            <div class="info-slider-titles">
-                <h2 class="titles"> <strong>Soy<br>FullStack Developer</strong></h2>
-                <p class="subtitles">Diseño y desarrollo sistemas completos, interfaces funcionales que se adaptan a todos los dispositivos y con el mas alto rendimiento</p>
-            </div>
-
-            <div class="graphic-slider">
-                <div id="container">
-                </div>
-            </div>
         </div>
     </div>
    </section>
     <section id="about-me" class="about-me">
         <div class="container-aboutme ">
-
         <h2 class="titles title-about fadeInUp">Sobre mí</h2>
         <div class="about-me-subtitle-one">
             <h3 class="titles ">Mis perfiles</h3>
