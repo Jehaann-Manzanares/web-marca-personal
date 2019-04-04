@@ -133,7 +133,7 @@ a{
 .main-slider{
     display: flex;
     background-color: var(--colorNegro);
-    padding:  1.5em;
+    padding: 2.5em 1.5em;;
     justify-content: center;
     box-sizing: border-box;
     background-image: url(../images/main-slider.png);
@@ -166,7 +166,7 @@ a{
 
 .main-slider .info-slider{
     grid-area: info-slider;
-    margin-top: 20px;
+    margin: 2.5em 0;
 
 }
 

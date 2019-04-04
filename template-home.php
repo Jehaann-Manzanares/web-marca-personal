@@ -85,7 +85,7 @@
 
         <div class="portfolio-titles">
              <h2 class="titles">Porfolio</h2>
-             <p class="subtitles">te presento los proyectos mas destacados que he tenido el placer de desarrollar</p>
+             <p class="subtitles">Te presento los proyectos más destacados que he desarrollado </p>
         </div>
         <div class="porfolio-category">
             <ul>
