@@ -29,15 +29,15 @@
         </div>
     </div>
    </section>
-    <section id="about-me" class="about-me">
+   <section id="about-me" class="about-me">
         <div class="container-aboutme ">
         <h2 class="titles title-about fadeInUp">Sobre mí</h2>
         <div class="about-me-subtitle-one">
-            <h3 class="titles ">Mis perfiles</h3>
-            <p class="subtitles-black">Soy un profesional amante de la tecnología, <strong> Desarrollador FullStack</strong>, <strong>Desarrollador E-Learning</strong>, <strong>Diseñador Gráfico</strong>, <strong>Facilitador del aprendizaje</strong> y sobre todo <strong>Creativo.</strong></p>
+            <!-- <h3 class="titles ">Mis perfiles</h3> -->
+            <p class="subtitles-black">Soy un profesional amante de la tecnología, <strong> Desarrollador FullStack</strong>, <strong>Desarrollador E-Learning</strong>, <strong>Diseñador Gráfico</strong>, <strong>Docente</strong> y sobre todo <strong>Creativo.</strong></p>
             <br>
-            <p>
-              Cada proyecto me ha permitido desarrolladar :
+            <!-- <p>
+              he desarrollado habilidades de:
             </p>
             <div class="profiles">
                 <div class="profiles-container" >
@@ -51,7 +51,7 @@
                  <div class="profiles-container"><i class="time"></i>
                     <p>Cordinación del tiempo</p>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="about-me-img">
             <figure>
@@ -79,6 +79,8 @@
                 </div>
             </div>
         </div>
+        </div>
+
     </section>
     <section id="portfolio" class="portfolio">
       <div class="container-portfolio">
