@@ -12,18 +12,20 @@
 <?php get_header();?>
 <section id="main-slider" class="main-slider">
     <div class="container-main">
+      <div class="img-slider fadeInLeft">
+           <figure>
+              <img src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.png' alt="jehaann-manzanares.png">
+           </figure>
+      </div>
         <div class="info-grapich slide fadeInRight ">
             <div class="info-slider centrado">
                 <h2 class="titles"> <strong>Soy Desarrallador Web</strong></h2>
                 <p class="subtitles">Diseño y desarrollo sistemas completos, interfaces funcionales que se adaptan a todos los dispositivos y con el mas alto rendimiento.</p>
-                <a href="#contact" class="btn">Contactar</a>
-                <a href="#portfolio" class="btn works">Ver trabajos</a>
+                <div class="bloque">
+                  <a href="#contact" class="btn">Contactar</a>
+                  <a href="#portfolio" class="btn works">Ver trabajos</a>
+                </div>
             </div>
-        </div>
-        <div class="img-slider fadeInLeft">
-             <figure>
-                <img src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.png' alt="jehaann-manzanares.png">
-             </figure>
         </div>
     </div>
    </section>

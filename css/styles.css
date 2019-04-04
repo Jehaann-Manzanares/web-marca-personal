@@ -18,6 +18,10 @@ font-size:100%;
 vertical-align:baseline;
 background:transparent;
 }
+
+*{
+  box-sizing: border-box;
+}
 :root{
  --colorNegro:#010312;
  --colorCeleste:#4EBAF9;
@@ -129,12 +133,12 @@ a{
 .main-slider{
     display: flex;
     background-color: var(--colorNegro);
-    padding:  3em;
+    padding:  1.5em;
     justify-content: center;
     box-sizing: border-box;
     background-image: url(../images/main-slider.png);
     background-repeat: no-repeat;
-    height: 100vh;
+
 
 
 }
@@ -145,7 +149,7 @@ a{
 .container-main{
 
     display: grid;
-    grid-template-columns: 1fr .5fr;
+    grid-template-columns: .7fr 1fr;
     grid-template-areas: "info-slider img-slider";
     grid-column-gap: 2em;
 
@@ -170,6 +174,7 @@ a{
   display: flex;
   align-items: center;
 }
+
 .info-slider p{
   margin-bottom: 2em
 }
@@ -814,7 +819,7 @@ figure{
     align-items: center
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
     .menu{
         display: grid;
         grid-template-columns: 1fr;
@@ -876,8 +881,9 @@ figure{
     padding: .5em 0
 }
 .subtitles-project{
+  font-size: .8em;
     color: white;
-    padding: 1em 0 2em 0
+    padding: .3em
  }
 
  .content-post{
@@ -919,23 +925,30 @@ figure{
   .container-main{
 
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2,1fr);
-    grid-template-areas:
-                        "info-slider"
-                        "img-slider";
+    grid-template-rows: .7fr 1fr;
+    grid-template-areas:"img-slider"
+                        "info-slider";
     grid-column-gap: .5em;
-    justify-content: center;
   }
 
+  .info-grapich{
+    margin-left: 1.5em
 
+  }
+  .bloque a{
+    display: block;
+    margin-bottom: .5em
+  }
+
+  .info-slider .works{
+    margin-left: 0
+
+  }
   .titles{
     font-size: 1.5em;
   }
 
-  .img-slider img{
-display: none;
 
-  }
   .container-aboutme{
 
       grid-template-columns: repeat(1,1fr);
@@ -962,7 +975,7 @@ display: none;
         grid-template-areas: "portfolio-titles"
                              "porfolio-category";
         grid-gap: .5em;
-        justify-items: center;
+
 
       }
 
