@@ -135,9 +135,9 @@
                     </figure>
                     <span class="project-info">
                         <p >
-                            <span class="titles-project">Desarrollo Web FullStack</span>
-                            <span class="subtitles-project">Sistema de ventas, desarrollado desde el boceto hasta ser pueso en producción. </span>
-                            <button class="btn">ver proyecto</button>
+                            <span class="titles-project">Desarrollo Sistema Web</span>
+                            <!-- <span class="subtitles-project">Sistema de ventas, desarrollado desde el boceto hasta ser pueso en producción. </span> -->
+                            <a href="<?php echo RutaTema?>/sisventas"class="btn" >ver proyecto</a>
                         </p>
                     </span>
                 </div>
@@ -145,12 +145,12 @@
         <article class="project">
             <div  class="project-container">
                 <figure>
-                    <img src='<?php echo RutaImagenes?>/portfolio_details.jpg' alt="projecto1" class="img-project">
+                    <img src='<?php echo RutaImagenes?>/TechTing-Training-and-Consulting.png' alt="projecto1" class="img-project">
                 </figure>
                 <span class="project-info">
                     <p >
-                        <span class="titles-project">Project one</span>
-                        <span class="subtitles-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span>
+                        <span class="titles-project">Desarrollo Página web</span>
+                        <!-- <span class="subtitles-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span> -->
                         <button class="btn">ver proyecto</button>
                     </p>
                 </span>
@@ -159,12 +159,12 @@
         <article class="project">
             <div  class="project-container">
                 <figure>
-                    <img src='<?php echo RutaImagenes?>/portfolio_details.jpg' alt="projecto1" class="img-project">
+                    <img src='<?php echo RutaImagenes?>/web-golden-suply.jpg' alt="projecto1" class="img-project">
                 </figure>
                 <span class="project-info">
                     <p >
-                        <span class="titles-project">Project one</span>
-                        <span class="subtitles-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span>
+                        <span class="titles-project">Diseño Página web</span>
+                        <!-- <span class="subtitles-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span> -->
                         <button class="btn">ver proyecto</button>
                     </p>
                 </span>
