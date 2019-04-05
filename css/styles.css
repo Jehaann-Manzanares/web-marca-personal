@@ -142,7 +142,99 @@ a{
 
 
 }
-.container-main, .about-me,.container-portfolio,.container-contact{
+/*-----------------------------
+        SERVICES
+-----------------------------*/
+.container-services{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows: repeat(2,1fr);
+  grid-template-areas: ". title-service ."
+  "development web-desing graphic-desing";
+  grid-gap: 1em
+}
+.title-service{
+  grid-area: title-service
+}
+.web-desing{
+  grid-area: web-desing;
+}
+
+.development{
+  grid-area: development;
+}
+.graphic-desing{
+  grid-area: graphic-desing;
+}
+
+.icon-web-desing{
+    background-image: url('../icons/web-desing.svg');
+}
+
+.icon-development{
+    background-image: url('../icons/development.svg');
+}
+
+.icon-graphic-desing{
+    background-image: url('../icons/graphic-desing.svg');
+}
+
+.services{
+  background-color: var(--colorNegro);
+  padding: 1.8em
+}
+
+.service{
+
+  text-align: center;
+  background: var(--colorAzul);
+  padding: 3em 1.5em;
+  color: white;
+  text-align: center;
+}
+.service p{
+  margin-bottom: 1em
+}
+
+.service .btn{
+  display: none;
+
+}
+
+.service:hover{
+
+  background: white;
+  color: var(--colorAzul)
+
+}
+.service h3{
+
+  font-size: 1.3em
+
+}
+.content-icon{
+
+  width: 6.2em;
+  height: 6.2em;
+  background-size: 6.2em 6.2em;
+  border: 1.5px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:1em auto
+}
+.service:hover .content-icon{
+
+  background: var(--colorAzul);
+
+}
+
+.service:hover .btn{
+  display: inline-block;
+}
+
+.container-main, .about-me,.container-portfolio,.container-contact, .container-services{
   max-width: 1440px;
 
 }
@@ -249,7 +341,7 @@ strong{
 .about-me{
     display: flex;
     margin: 0 auto;
-    padding: 30px 30px 0px 30px;
+    padding: 2em;
 
 
 }
@@ -349,7 +441,7 @@ strong{
 }
 .lead,.comunicator,.time,
 .icon-ni, .icon-phone, .icon-mail,
-.facebook, .twitter, .intagram, .linkedIn, .github{
+.facebook, .twitter, .intagram, .linkedIn, .github, .icon-web-desing, .icon-graphic-desing, .icon-development{
     width: 50px;
     height: 50px;
     background-size: 50px 50px;
@@ -380,7 +472,6 @@ strong{
 .portfolio{
   display: flex;
   justify-content: center;
-  background-color: var(--colorNegro);
   padding: 30px;
 
 
@@ -436,7 +527,6 @@ strong{
 .img-project{
     width: 100%;
     object-fit: cover;
-    border-radius: 5px;
     vertical-align: top
 
 }
@@ -493,6 +583,27 @@ button,.btn:hover{
  color: white;
 }
 
+/*-----------------------------
+        CALL TO ACTION
+-----------------------------*/
+.call-to-action{
+  display: flex;
+  background: var(--colorNegro);
+  padding: 2em;
+  justify-content: center;
+}
+
+.container-call p{
+  display: inline-block;
+  margin: .5em 0 1em;
+  padding-left: 0;
+}
+
+.container-call .btn{
+
+  padding: 1em;
+  text-align: center;
+}
 
 /*-----------------------------
         CONTACT
@@ -619,6 +730,11 @@ footer span{
   border-bottom: 5px solid var(--colorCeleste);
   padding-bottom: .5em
 }
+
+.social-icons a{
+  margin-left: .5em
+}
+
 /*-----------------------------
         RESPONSIVE DESKTOP
 -----------------------------*/
@@ -916,6 +1032,20 @@ figure{
 
 }
 
+/*-----------------------------
+        SERVICES-TABLET
+-----------------------------*/
+.container-services{
+
+  grid-template-columns: 1fr;
+  grid-auto-rows: repeat(3,1fr);
+  grid-template-areas:    "title-service"
+                          "development"
+                          "web-desing"
+                          "graphic-desing";
+  grid-gap: 1em
+}
+
 
 
 }
@@ -973,6 +1103,9 @@ figure{
         text-align: center;
       }
 
+      .padding{
+        padding: 30px;
+      }
 
       .container-portfolio{
 
@@ -1009,6 +1142,7 @@ figure{
       .social-icons{
         text-align: center
    }
+
 
    .logo{
 

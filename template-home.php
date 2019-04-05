@@ -55,7 +55,7 @@
         </div>
         <div class="about-me-img">
             <figure>
-                <img src='<?php echo RutaImagenes?>/jehaann-Manzanares.png' alt="sobre-jehaann-manzanares" class="img-about-me">
+                <img src='<?php echo RutaImagenes?>/web-developer-about.jpg' alt="sobre-jehaann-manzanares" class="img-about-me">
             </figure>
         </div>
         <div class="about-me-subtitle-two">
@@ -75,19 +75,48 @@
             <div class="skills">
                 <h4>SEO</h4>
                 <div class="skill">
-                        <div class="level three">62%</div>
+                        <div class="level three">72%</div>
                 </div>
             </div>
         </div>
         </div>
 
     </section>
+    <section class="services">
+      <div class="container-services">
+        <h2 class="titles centrado title-service">Mis servicios</h2>
+        <div class="service development">
+          <div class="content-icon">
+            <i class="icon-development"></i>
+          </div>
+            <h3>Desarrollo web</h3>
+            <p>Desarrollo de sistemas, Sitios web dinámicos, estáticos y Wep Apps.</p>
+            <!-- <a href="#" class="btn">Más información</a> -->
+        </div>
+        <div class="service web-desing">
+          <div class="content-icon">
+            <i class="icon-web-desing"></i>
+          </div>
+            <h3 >Diseño web </h3>
+            <p>Diseño profesional, pensados en brindar la mejor experiencia a los usuarios.</p>
+            <!-- <a href="#" class="btn">Más información</a> -->
+        </div>
+        <div class="service graphic-desing">
+          <div class="content-icon">
+              <i class="icon-graphic-desing"></i>
+          </div>
+            <h3 >Diseño Gráfico</h3>
+            <p>Diseños creativos que comuniquen los objetivos que deseas, desde logos, papeleria y más.</p>
+            <!-- <a href="#" class="btn">Más información</a> -->
+        </div>
+      </div>
+    </section>
     <section id="portfolio" class="portfolio">
       <div class="container-portfolio">
 
         <div class="portfolio-titles">
              <h2 class="titles">Porfolio</h2>
-             <p class="subtitles">Te presento los proyectos más destacados que he desarrollado </p>
+             <p class="subtitles-black">Te presento los proyectos más destacados que he desarrollado </p>
         </div>
         <div class="porfolio-category">
             <ul>
@@ -142,8 +171,12 @@
             </div>
         </article>
       </div>
-
-
+    </section>
+    <section class="call-to-action">
+        <div class="container-call">
+            <p class="titles">¿Sabes como transformar en digital tu empresa?</p>
+            <a href="#" class="btn">Leer más</a>
+        </div>
     </section>
     <section id="contact" class="contact">
       <div class="container-contact">
