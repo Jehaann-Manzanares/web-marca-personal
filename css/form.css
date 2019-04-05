@@ -18,8 +18,9 @@
   }
   form textarea{
     width:100%;
-    border:1px solid rgba(42,55,62,0.3);
-    outline:none;padding:.375rem 1.25rem;
+    border:1px solid var(--colorAzul);
+    outline:none;
+    padding:.375rem 1.25rem;
     font-family:'Poppins',sans-serif;
     font-size:1rem;color:#444;
     height:9.375rem;
