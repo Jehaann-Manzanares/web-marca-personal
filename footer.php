@@ -1,11 +1,10 @@
 <?php
 /**
 *Jehaann Theme - Footer
+*@package wordpress
+*@subpackage jehaann
+*@since 1.0.0
 
-@package wordpress
-@subpackage jehaann
-@since 1.0.0
-@Version 1.0.0/
 */
 ?>
 

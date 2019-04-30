@@ -1,12 +1,12 @@
-<!-- Archivo para agregar funcionalidades al tema -->
 <?php
+// Archivo para agregar funcionalidades al tema
 /**
 *Jehaann Theme - Function and Definitions
 
-@package wordpress
-@subpackage jehaann
-@since 1.0.0
-@Version 1.0.0/
+*@package wordpress
+*@subpackage jehaann
+*@since 1.0.0
+
 */
 
 /** funcion para mandar la ruta en la llamada del hmtl del los archivos css y js */
@@ -16,24 +16,13 @@ define('RutaTema', get_stylesheet_directory_uri() );
 /** funcion para mandar la ruta en la llamada de las imagenes en el html */
 define('RutaImagenes',RutaTema.'/images');
 
-//cargando estilos y script
-
-require_once('includes/scripts-styles.php');
-
-
-//Registrando Sidebars interactivos
-
-
-require_once('includes/sidebars.php');
-
 /** definiendo caracteristicas del Tema */
 
 // Set content width value based on the theme's design
 if ( ! isset( $content_width ) )
     $content_width = 1200;
 
-
-    if ( ! function_exists('jehaann_custom_theme_features') ) {
+if ( ! function_exists('jehaann_custom_theme_features') ) {
 
     // Register Theme Features
     function jehaann_custom_theme_features()  {
@@ -73,4 +62,27 @@ if ( ! isset( $content_width ) )
     }
     add_action( 'after_setup_theme', 'jehaann_custom_theme_features' );
 
-    }
+		}
+		
+		//cargando estilos y script
+
+require_once('includes/scripts-styles.php');
+
+
+//Registrando Sidebars interactivos
+
+
+require_once('includes/sidebars.php');
+
+function jehaann_custom_excerpt($limite){
+	$extracto = explode(' ',get_the_excerpt(), $limite);
+	if (count($extracto) >= $limite ) {
+		array_pop($extracto);
+		$extracto = implode(' ', $extracto) . '...';
+	}else {
+		$extracto = implode(' ', $extracto);
+	}
+	$extracto = preg_replace('/^\s*{(\w+)}\s*=/','',$extracto);
+	return $extracto;
+}
+
