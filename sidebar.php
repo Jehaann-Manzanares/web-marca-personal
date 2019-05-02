@@ -13,7 +13,7 @@ archivos con el sidebar del tema
                 <img src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.png' alt="jehaann-manzanares.png">
         </figure>
         <div class="contenedor-info">
-            <h1>Autor: Jehaann Manzanares</h1>
+            <h1>Autor: <?php echo get_the_author(); ?></h1>
             <p>Frontend/Backend developer</p>
             
         </div>
