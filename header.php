@@ -33,7 +33,9 @@
              <ul>
                  <li><a href="#about-me">Sobre mi</a></li>
                  <li><a href="#portfolio">Portfolio</a></li>
+                 <li><a href="https://jehaann-manzanares.com/blog/">Blog</a></li>
                  <li><a href="#contact"><button class="btn">Contactar</button></a></li>
+                
              </ul>
         </nav>
     </header>
