@@ -34,7 +34,7 @@
         <h2 class="titles title-about fadeInUp">Sobre mí</h2>
         <div class="about-me-subtitle-one">
             <!-- <h3 class="titles ">Mis perfiles</h3> -->
-            <p class="subtitles-black">Soy un profesional amante de la tecnología, <strong> Desarrollador FullStack</strong>, <strong>Desarrollador E-Learning</strong>, <strong>Diseñador Gráfico</strong>, <strong>Docente</strong> y sobre todo <strong>Creativo.</strong></p>
+            <p class="subtitles-black">Soy un profesional amante de la tecnología, <strong> Desarrollador FullStack</strong>, <strong>Desarrollador E-Learning</strong>, <strong>Diseñador</strong>, <strong>Docente</strong> y sobre todo <strong>Creativo.</strong></p>
             <br>
             <!-- <p>
               he desarrollado habilidades de:
@@ -137,7 +137,7 @@
                         <p >
                             <span class="titles-project">Desarrollo Sistema Web</span>
                             <!-- <span class="subtitles-project">Sistema de ventas, desarrollado desde el boceto hasta ser pueso en producción. </span> -->
-                            <a href="<?php echo RutaTema?>/sisventas"class="btn" >ver proyecto</a>
+                            <a href="https://jehaann-manzanares.com/desarrollo-de-sistema-web/"class="btn" >ver proyecto</a>
                         </p>
                     </span>
                 </div>
@@ -151,7 +151,7 @@
                     <p >
                         <span class="titles-project">Desarrollo Página web</span>
                         <!-- <span class="subtitles-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span> -->
-                        <button class="btn">ver proyecto</button>
+                        <a class="btn" href="https://jehaann-manzanares.com/pagina-web-techting">ver proyecto</a>
                     </p>
                 </span>
             </div>
@@ -165,7 +165,7 @@
                     <p >
                         <span class="titles-project">Diseño Página web</span>
                         <!-- <span class="subtitles-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span> -->
-                        <button class="btn">ver proyecto</button>
+                        <a class="btn" href="https://jehaann-manzanares.com/Diseno-web-golden-supply-cr">ver proyecto</a>
                     </p>
                 </span>
             </div>
