@@ -466,6 +466,24 @@ strong{
 }
 
 
+.call-to-action-about{
+  padding: 2em 0;
+  
+}
+
+.call-to-action-about a{
+  margin-right: 1em
+}
+
+.call-to-action-about .blue{
+  background: var(--colorAzul);
+  color: white
+}
+
+.call-to-action-about .blue:hover{
+  background: transparent;
+  color: var(--colorAzul)
+}
 /*-----------------------------
         PORTFOLIO
 -----------------------------*/
@@ -590,7 +608,7 @@ button,.btn:hover{
   display: flex;
   background: var(--colorNegro);
   padding: 2em;
-  justify-content: center;
+ 
 }
 
 .container-call p{
@@ -1058,6 +1076,11 @@ figure{
 .blog .container-blog{
   display: inline-block;
 
+}
+
+.call-to-action{
+  text-align: center
+ 
 }
 
 
