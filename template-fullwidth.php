@@ -2,9 +2,9 @@
 
 /** Template name: Ancho completo
 * PAGINA DE ANCHO COMPLETO
-@package wordpress
-@subpackage jehaann
-@since 1.0
+*@package wordpress
+*@subpackage jehaann
+*@since 1.0
 */
 ?>
 

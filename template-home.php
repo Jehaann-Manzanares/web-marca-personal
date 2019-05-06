@@ -151,7 +151,7 @@
                     <p >
                         <span class="titles-project">Desarrollo Página web</span>
                         <!-- <span class="subtitles-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span> -->
-                        <a class="btn" href="https://jehaann-manzanares.com/pagina-web-techting">ver proyecto</a>
+                        <a class="btn" href="https://jehaann-manzanares.com/pagina-web-techting/">ver proyecto</a>
                     </p>
                 </span>
             </div>
