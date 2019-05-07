@@ -834,7 +834,6 @@ footer span{
     display: inline-block;
     height: auto;
     width: 100%;
-    margin-bottom: 2em;
     box-sizing: border-box;
 
 
@@ -845,6 +844,7 @@ footer span{
     grid-auto-rows: auto;
     grid-gap: 1em;
     margin: 0 1em;
+    margin-bottom: 2em;
     
 }
 .container-blog-image{
