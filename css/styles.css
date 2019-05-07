@@ -1257,3 +1257,7 @@ figure{
 
 /* Error Elementor ancho*/
 
+.content-post .single {
+  
+  width: 90%;
+}
