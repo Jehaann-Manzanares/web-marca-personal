@@ -665,8 +665,6 @@ button,.btn:hover{
 }
 
 .container-call .btn{
-
-  padding: 1em;
   text-align: center;
 }
 
@@ -813,11 +811,6 @@ footer span{
                            "about-me-subtitle-one about-me-img "
                            "about-me-subtitle-two about-me-subtitle-two ";
 
-
-      }
-
-      .about-me .about-me-subtitle-two{
-         display: contents;
 
       }
 
@@ -1123,7 +1116,7 @@ figure{
 
 }
 
-.call-to-action{
+.call-to-action, .call-to-action-about{
   text-align: center
  
 }
@@ -1174,9 +1167,6 @@ figure{
                            "about-me-img"
                            "about-me-subtitle-two";
 
-
-
-
 }
 
       .about-me-subtitle-two h3{
@@ -1196,7 +1186,6 @@ figure{
                              "porfolio-category";
         grid-gap: .5em;
 
-
       }
 
       .porfolio-category{
@@ -1206,7 +1195,6 @@ figure{
       .portfolio-titles{
         padding-bottom: .5em
       }
-
 
       .container-contact{
 
@@ -1233,6 +1221,33 @@ figure{
 
 }
 
+.call-to-action .btn{
+  display: block;
+}
+
+.call-to-action-about .btn{
+  display: block;
+  margin-bottom: 1em;
+}
+
+.call-to-action-about .btn {
+  background-position-x: 250px
+}
+
+.call-to-action-about .btn:hover {
+  background-position-x: 250px
+}
+
+}
+
+@media screen and (max-width:320px){
+  .call-to-action-about .btn {
+    background-position-x: 200px
+  }
+  
+  .call-to-action-about .btn:hover {
+    background-position-x: 200px
+  }
 }
 
 /* Error Elementor ancho*/
