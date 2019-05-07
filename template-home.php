@@ -78,9 +78,10 @@
                         <div class="level three">72%</div>
                 </div>
             </div>
+            <span class="line"></span>
             <div class="call-to-action-about">
-                <a href="https://jehaann-manzanares.com/wp-content/uploads/2019/05/cv-Jehaann-Manzanares-.pdf" class="btn blue">Ver CV</a>
-                <a href="#portfolio" class="btn"> Ver trabajos</a>
+                <a href="https://jehaann-manzanares.com/wp-content/uploads/2019/05/cv-Jehaann-Manzanares-.pdf" class="btn blue download">Descargar CV </a>
+                <a href="#contact" class="btn sent"> Enviar mensaje </a>
             </div>
         </div>
         </div>
