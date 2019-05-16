@@ -1261,3 +1261,15 @@ figure{
   
   width: 90%;
 }
+
+/* ***************************
+
+Estilos single page blog
+
+******************************/
+
+.article-content p a{
+  color: var(--colorAzul);
+  font-weight: bold
+
+}
