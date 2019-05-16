@@ -1270,6 +1270,7 @@ Estilos single page blog
 
 .article-content p a{
   color: var(--colorAzul);
-  font-weight: bold
+  font-weight: bold;
+  curs
 
 }
