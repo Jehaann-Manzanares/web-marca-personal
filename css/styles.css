@@ -886,8 +886,10 @@ figure{
 
 .content-post{
     display: grid;
-    grid-template-columns: 1fr .3fr;
-    grid-template-areas: "article sidebar-principal";
+    grid-template-columns: 1fr .4fr;
+    grid-template-areas: "article sidebar-principal"
+                         "article .";
+    grid-template-rows: auto;
     padding: 2.5em;
     grid-gap: 2em
 
@@ -895,11 +897,6 @@ figure{
 
 .article{
     grid-area: article;
-}
-.sidebar-principal{
-    grid-area: sidebar-principal;
-
-
 }
 
 .content-post h2 {
@@ -916,7 +913,7 @@ figure{
 }
 
 .sidebar-principal{
-
+    grid-area: sidebar-principal;
     display: inline-block;
     justify-content: center;
     box-shadow: 1px 1px 10px rgba(203, 203, 203, 0.9);
