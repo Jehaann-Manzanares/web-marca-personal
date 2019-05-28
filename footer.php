@@ -15,7 +15,7 @@
             <a href="https://twitter.com/JehanManzanares"><i class="twitter"></i></a>
             <a href="https://www.instagram.com/jehaannmanzanares/"><i class="intagram"></i></a>
             <a href="https://www.linkedin.com/in/jehaann-manzanares-153740140/"><i class="linkedIn"></i></a>
-            <a href="https://github.com/Jehaann07"><i class="github"></i></a>
+            <a href="https://github.com/Jehaann-Manzanares"><i class="github"></i></a>
         </div>
         <span>d</span>
         <div class="sub-footer">
