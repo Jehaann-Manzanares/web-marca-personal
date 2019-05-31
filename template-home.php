@@ -42,8 +42,12 @@
                 <strong> Desarrollador FullStack</strong>, 
                 <strong>Desarrollador E-Learning</strong>, 
                 <strong>Diseñador</strong>, <strong>Docente creativo.</strong>
-                He desarrollaro proyectos increibles y he adquirido las competencias y conocimientos necesarios para
+                He desarrollado proyectos increíbles y he adquirido las competencias y conocimientos necesarios para
                       desarrollar cualquier proyecto de forma exitosa. 
+            </p>
+            <p>
+            Trabajo muy bien en equipo, tengo muy buenas habilidades de comunicación también 
+            soy colaborativo y nunca paro de aprender y compartir mis conocimientos.
             </p>
             <div class="aboutme-data">
                     <div class="aboutme-name-phone">
@@ -155,7 +159,7 @@
 
         <div class="portfolio-titles">
              <h2 class="titles">Porfolio</h2>
-             <p class="subtitles-black">Te presento los proyectos más destacados que he desarrollado </p>
+             <p class="subtitles-black">Te presento los proyectos más destacados que he desarrollado. </p>
         </div>
         <div class="porfolio-category">
             <ul>
@@ -228,7 +232,7 @@
 
         <div class="contact-titles">
             <h2 class="titles">¿Creamos algo juntos?</h2>
-            <p class="subtitles-black">si estas aqui es por algo bueno, no dejes ir esta oportunidad</p>
+            <p class="subtitles-black">Haz me una consulta y empecemos a darle forma a tu proyecto.</p>
         </div>
         <div class="contact-info">
             <div class="contact-icon-container">
