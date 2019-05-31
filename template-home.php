@@ -29,13 +29,37 @@
         </div>
     </div>
    </section>
+    <div class="space-background">
+       
+    </div>
    <section id="about-me" class="about-me">
         <div class="container-aboutme ">
         <h2 class="titles title-about fadeInUp">Sobre mí</h2>
         <div class="about-me-subtitle-one">
             <!-- <h3 class="titles ">Mis perfiles</h3> -->
-            <p class="subtitles-black">Soy un profesional amante de la tecnología, <strong> Desarrollador FullStack</strong>, <strong>Desarrollador E-Learning</strong>, <strong>Diseñador</strong>, <strong>Docente</strong> y sobre todo <strong>Creativo.</strong></p>
-            <br>
+            <p class="">Hola mi nombre es Jehaann Manzanares,
+                Soy un profesional amante de la tecnología,
+                <strong> Desarrollador FullStack</strong>, 
+                <strong>Desarrollador E-Learning</strong>, 
+                <strong>Diseñador</strong>, <strong>Docente creativo.</strong>
+                He desarrollaro proyectos increibles y he adquirido las competencias y conocimientos necesarios para
+                      desarrollar cualquier proyecto de forma exitosa. 
+            </p>
+            <div class="aboutme-data">
+                    <div class="aboutme-name-phone">
+                        <p>Nombre: </p>
+                        <span>Jehaann Manzanares</span>
+                        <p>Celular:</p>
+                        <span> +(505) 8272 - 4327</span>
+                    </div>
+                    <div class="aboutme-email-social">
+                        <p>Redes sociales:</p>
+                        <span> @JehaannManzanares</span>
+                        <p>Email: </p>
+                        <span>developer@jehaann-manzanares.com</span>
+                    </div>
+            </div>
+                           
             <!-- <p>
               he desarrollado habilidades de:
             </p>
@@ -55,29 +79,33 @@
         </div>
         <div class="about-me-img">
             <figure>
-                <img src='<?php echo RutaImagenes?>/web-developer-about.jpg' alt="sobre-jehaann-manzanares" class="img-about-me">
+                <img src='<?php echo RutaImagenes?>/developer-about-me.jpg' alt="sobre-jehaann-manzanares" class="img-about-me">
             </figure>
+            <div class="skills-container">
+                <h3 class="titles">Conocimientos</h3>
+                <div class="skills">
+                    <h4>SCRUM</h4>
+                    <div class="skill ">
+                        
+                        <div class="level one"><span class="tooltip">85%</span></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h4>Lean Six Sixma</h4>
+                    <div class="skill">
+                            <div class="level two"><span class="tooltip">50%</span></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h4>SEO</h4>
+                    <div class="skill">
+                            <div class="level three"><span class="tooltip">80%</span></div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="about-me-subtitle-two">
-            <h3 class="titles">Conocimientos</h3>
-            <div class="skills">
-                <h4>SCRUM</h4>
-                <div class="skill ">
-                    <div class="level one">70%</div>
-                </div>
-            </div>
-            <div class="skills">
-                <h4>Lean Six Sixma</h4>
-                <div class="skill">
-                        <div class="level two">50%</div>
-                </div>
-            </div>
-            <div class="skills">
-                <h4>SEO</h4>
-                <div class="skill">
-                        <div class="level three">72%</div>
-                </div>
-            </div>
+            
             <span class="line"></span>
             <div class="call-to-action-about">
                 <a href="https://jehaann-manzanares.com/wp-content/uploads/2019/05/cv-Jehaann-Manzanares-.pdf" class="btn blue download">Descargar CV </a>
@@ -87,6 +115,9 @@
         </div>
 
     </section>
+    <div class="space-background" >
+       
+    </div>
     <section class="services">
       <div class="container-services">
         <h2 class="titles centrado title-service">Mis servicios</h2>
@@ -116,6 +147,9 @@
         </div>
       </div>
     </section>
+    <div class="space-background">
+       
+    </div>
     <section id="portfolio" class="portfolio">
       <div class="container-portfolio">
 
@@ -177,12 +211,18 @@
         </article>
       </div>
     </section>
-    <section class="call-to-action">
+    <div class="space-background">
+       
+    </div>
+    <section class="call-to-action center">
         <div class="container-call">
             <p class="titles">¿Sabes como transformar en digital tu empresa?</p>
             <a href="#" class="btn">Leer más</a>
         </div>
     </section>
+    <div class="space-background">
+       
+    </div>
     <section id="contact" class="contact">
       <div class="container-contact">
 

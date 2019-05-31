@@ -48,7 +48,11 @@ body{
 }
 
 
+.center{
+  display: flex;
+  justify-content: center
 
+}
 /*-----------------------------
         MENU
 -----------------------------*/
@@ -122,7 +126,7 @@ a{
 .btn{
     background: transparent;
     color: var(--colorCeleste);
-    padding: 5px 25px;
+    padding: .6em 2em;
     border-radius: 5px;
     border: .5px solid var(--colorCeleste)
 
@@ -179,8 +183,11 @@ a{
 }
 
 .services{
-  background-color: var(--colorNegro);
-  padding: 1.8em
+  background-color: white;
+  padding: 1.8em;
+  display: flex;
+  justify-content: center
+
 }
 
 .service{
@@ -204,7 +211,9 @@ a{
 .service:hover{
 
   background: white;
-  color: var(--colorAzul)
+  color: var(--colorAzul);
+  box-shadow: -2px 3px 10px 2px rgba(168,168,168,1);
+
 
 }
 .service h3{
@@ -234,8 +243,9 @@ a{
   display: inline-block;
 }
 
-.container-main, .about-me,.container-portfolio,.container-contact, .container-services{
-  max-width: 1440px;
+.container-main, .container-aboutme ,.container-portfolio,.container-contact, .container-services, .container-call{
+  max-width: 1024px;
+ 
 
 }
 .container-main{
@@ -342,23 +352,22 @@ strong{
     display: flex;
     margin: 0 auto;
     padding: 2em;
-
-
+    background: black;
+    color: white;
+    justify-content: center
+  
 }
 
 .container-aboutme{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 1.5fr 1fr 1fr;
     grid-template-rows: repeat(3, auto);
     grid-template-areas: ". title-about title-about"
                          "about-me-img about-me-subtitle-one about-me-subtitle-one"
                          "about-me-img about-me-subtitle-two about-me-subtitle-two";
     justify-items: left;
-
-
     grid-column-gap: 2em;
-
-
+   
 }
 
 .title-about{
@@ -367,21 +376,47 @@ strong{
 
 .about-me-subtitle-one{
     grid-area: about-me-subtitle-one;
+    
+  
 }
+
 
 .about-me-img{
     grid-area: about-me-img;
+    position: relative;
 }
 
 .about-me-img img{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
-
 
 .about-me-subtitle-two{
     grid-area: about-me-subtitle-two;
     width: 100%
+}
+.aboutme-data{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "name-phone aboutme-email-social";
+  margin: 1.5em 0;
+}
+
+.aboutme-name-phone p,.aboutme-email-social p {
+  color:var(--colorCeleste);
+  display: block;
+}
+.aboutme-data span{
+  padding: .5em
+}
+.skills-container{
+  border: 2px solid grey;
+  padding: 1em 1.5em;
+  background-color: rgba(0, 0, 0,.8);
+  position: absolute;
+  top:30%;
+  left: 10%;
+  
 }
 .skills{
 
@@ -392,27 +427,39 @@ strong{
 
 }
 .skills h4{
-    margin-bottom: 15px
+    margin-bottom: .5em
 }
 
 .skill{
-     background-color:#e9e6e6;
+     /* background-color:#e9e6e6; */
      border-radius: 17px;
      width: 100%;
-
+     
+     
 }
 
 .level{
     background-image: var(--degradado);
-    height: 20px;
+    height: 5px;
     border-radius: 17px;
     color: white;
-    text-align: center
+    text-align: right;
+    position: relative;
+    
 }
 
+.tooltip{
+padding: .2em .5em;
+border: 1px solid grey;
+position: absolute;
+z-index: 1;
+top:-50px;
+left: 100%;
+
+}
 .one{
 
-    width: 70%;
+    width: 85%;
 }
 
 .two{
@@ -422,7 +469,7 @@ strong{
 
 .three{
 
-    width: 72%;
+    width: 80%;
 }
 
 .profiles-container, .contact-icon-container{
@@ -503,18 +550,22 @@ strong{
 }
 
 .call-to-action-about .download:hover {
+  border-color: white;
+  color:white;
   background-size: 15px 15px;
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 150px;
-  background-image: url(../icons/download-blue.svg);
+  background-image: url(../icons/download-white.svg);
   
   
 }
 
 .call-to-action-about .sent{
+  border-color: white;
+  color:white;
   background-position-x: 160px;
-  background-image: url(../icons/paper-plane-blue.svg);
+  background-image: url(../icons/paper-plane-white.svg);
 }
 
 .call-to-action-about .sent:hover {
@@ -527,9 +578,9 @@ strong{
 .line{
   margin: 2em 0;
   display: block;
-  border: .5px solid var(--colorAzul);
-  width: 90%;
-  box-sizing: border-box
+  border: .5px solid white;
+  
+  
 }
 /*-----------------------------
         PORTFOLIO
@@ -538,10 +589,6 @@ strong{
   display: flex;
   justify-content: center;
   padding: 30px;
-
-
-
-
 }
 
 .container-portfolio{
@@ -615,6 +662,8 @@ strong{
 
 .project-container:hover .project-info{
     display: flex;
+    box-shadow: -2px 3px 10px 2px rgba(168,168,168,1);
+    
 
 }
 .project-info span{
@@ -661,10 +710,11 @@ button,.btn:hover{
  
 }
 
-.container-call p{
-  display: inline-block;
+.container-call {
+  
   margin: .5em 0 1em;
   padding-left: 0;
+  text-align: center
 }
 
 .container-call .btn{
@@ -800,6 +850,19 @@ footer span{
 
 .social-icons a{
   margin-left: .5em
+}
+
+.space-background{
+  
+  width: 100%;
+  background-size: cover;
+  background-image: url('../images/img-background-09.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2em;
+  opacity: .5;
+
+
 }
 
 /*-----------------------------
@@ -1237,6 +1300,14 @@ figure{
   grid-gap: 1em
 }
 
+.about-me-img{
+  margin-bottom: 5em;
+}
+
+.skills-container {
+  width: 90%
+}
+
 
 }
 
@@ -1248,6 +1319,14 @@ figure{
   .call-to-action-about .btn:hover {
     background-position-x: 200px
   }
+  .skills-container {
+    width: 80%
+  }
+  .about-me-img{
+    margin-bottom: 8em;
+  }
+  
+
 }
 
 /* Error Elementor ancho*/
