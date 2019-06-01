@@ -457,6 +457,7 @@ top:-50px;
 left: 100%;
 
 }
+
 .one{
 
     width: 85%;
@@ -1310,7 +1311,14 @@ figure{
 
 
 }
-
+@media screen and (max-width:376px){
+  .skills-container div:nth-of-type(2) span{
+    
+    left: 130px;
+    
+    
+    }
+}
 @media screen and (max-width:320px){
   .call-to-action-about .btn {
     background-position-x: 200px
@@ -1326,7 +1334,6 @@ figure{
     margin-bottom: 8em;
   }
   
-
 }
 
 /* Error Elementor ancho*/
@@ -1346,3 +1353,4 @@ Estilos single page blog
   color: var(--colorAzul);
   font-weight: bold;
 }
+

@@ -54,11 +54,11 @@
                         <p>Nombre: </p>
                         <span>Jehaann Manzanares</span>
                         <p>Celular:</p>
-                        <span> +(505) 8272 - 4327</span>
+                        <span> (505) 82724327</span>
                     </div>
                     <div class="aboutme-email-social">
                         <p>Redes sociales:</p>
-                        <span> @JehaannManzanares</span>
+                        <span> @Jehaann Manzanares</span>
                         <p>Email: </p>
                         <span>developer@jehaann-manzanares.com</span>
                     </div>
@@ -97,7 +97,7 @@
                 <div class="skills">
                     <h4>Lean Six Sixma</h4>
                     <div class="skill">
-                            <div class="level two"><span class="tooltip">50%</span></div>
+                            <div class="level two"><span class="tooltip" >50%</span></div>
                     </div>
                 </div>
                 <div class="skills">
