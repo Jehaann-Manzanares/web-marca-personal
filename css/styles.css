@@ -31,10 +31,12 @@ background:transparent;
 
 @font-face{
     font-family: titles;
+    font-display: auto;
     src: url("../fonts/Poppins-Medium.ttf");
 }
 @font-face{
-font-family: texts;
+    font-family: texts;
+    font-display: auto;
     src: url("../fonts/Poppins-Light.ttf");
 }
 
