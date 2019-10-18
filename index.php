@@ -44,10 +44,12 @@
                     <?php endif; ?>
             <?php endif; ?>
             </picture>
-            <div>
-                <h1 class="titles-project" title= "<?php the_title_attribute(); ?>"><?php the_title(); ?></h1>
-                <?php the_excerpt();?>
-                <a class="btn" href="<?php the_permalink(); ?>">Leer más</a>
+            <div class="container-texts-projects">
+                <a class="" href="<?php the_permalink(); ?>">
+                     <h1 class="titles-project" title= "<?php the_title_attribute(); ?>"><?php the_title(); ?></h1>
+                    <span><?php the_time(get_option('date_format')); ?></span>
+                     
+                </a>
             </div>
     </article>
     <?php endwhile;?>
