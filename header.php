@@ -24,6 +24,18 @@
         wp_enqueue_script('comment-reply');
     }?>
     <?php wp_head(); ?>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "42cfb9bc-4aeb-4da9-83a3-64aeda77dd51",
+      notifyButton: {
+        enable: true,
+      },
+    });
+  });
+</script>
 </head>
 <body <?php body_class(); ?>>
     <i class="icon-menu burger-button" id="burger-menu"></i>

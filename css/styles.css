@@ -1112,8 +1112,10 @@ p {
   /*-----------------------------
         SERVICES-TABLET
 -----------------------------*/
-
-  .c.blog-post {
+  .container-blog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blog-post {
     width: 90%;
   }
 
