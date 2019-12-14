@@ -19,8 +19,8 @@
       </div>
         <div class="info-grapich slide fadeInRight ">
             <div class="info-slider centrado">
-                <h2 class="titles"> <strong>Soy Desarrallador Web</strong></h2>
-                <p class="subtitles">Diseño y desarrollo sistemas completos, interfaces funcionales que se adaptan a todos los dispositivos y con el mas alto rendimiento.</p>
+                <h2 class="titles"> <strong>Soy desarrollador FrontEnd</strong></h2>
+                <p class="subtitles">Diseño y desarrollo páginas web y Web Apps funcionales, con interfaces que brinden las mejores experiencias de usuario.</p>
                 <div class="bloque">
                   <a href="#contact" class="btn">Contactar</a>
                   <a href="#portfolio" class="btn works">Ver trabajos</a>
@@ -29,57 +29,39 @@
         </div>
     </div>
    </section>
-    <div class="space-background">
-       
-    </div>
+    <div class="space-background"></div>
    <section id="about-me" class="about-me">
         <div class="container-aboutme ">
-        <h2 class="titles title-about fadeInUp">Sobre mí</h2>
-        <div class="about-me-subtitle-one">
-            <!-- <h3 class="titles ">Mis perfiles</h3> -->
-            <p class="">Hola mi nombre es Jehaann Manzanares,
-                Soy un profesional amante de la tecnología,
-                <strong> Desarrollador FullStack</strong>, 
-                <strong>Desarrollador E-Learning</strong>, 
-                <strong>Diseñador</strong>, <strong>Docente creativo.</strong>
-                He desarrollado proyectos increíbles y he adquirido las competencias y conocimientos necesarios para
-                      desarrollar cualquier proyecto de forma exitosa. 
-            </p>
-            <p>
-            Trabajo muy bien en equipo, tengo muy buenas habilidades de comunicación también 
-            soy colaborativo y nunca paro de aprender y compartir mis conocimientos.
-            </p>
+            <h2 class="titles title-about fadeInUp">Sobre mí</h2>
+            <div class="about-me-subtitle-one">
+                <p class="">¡Hola mi nombre es Jehaann!<br><br>
+                    Soy un profesional amante de la tecnología, me he especializado como:
+                    <strong> Desarrollador FrontEnd</strong> y <strong>Docente creativo.</strong>
+                    <br><br>Ademas tengo conocimientos en :
+                    <strong>Diseño UI y UX</strong>, 
+                    <strong>BackEnd con PHP - Laravel</strong> y
+                    <strong>Bases de datos</strong>,
+                    He desarrollado proyectos increíbles y he adquirido conocimientos en cada uno de ellos para
+                        desarrollar cualquier proyecto de forma exitosa. 
+                </p>
+                <p>
+                Trabajo muy bien en equipo, tengo muy buenas habilidades de comunicación también 
+                soy colaborativo y <strong>nunca paro de aprender</strong> y compartir mis conocimientos.
+                </p>
             <div class="aboutme-data">
-                    <div class="aboutme-name-phone">
-                        <p>Nombre: </p>
-                        <span>Jehaann Manzanares</span>
-                        <p>Celular:</p>
-                        <span> (505) 82724327</span>
-                    </div>
-                    <div class="aboutme-email-social">
-                        <p>Redes sociales:</p>
-                        <span> @Jehaann Manzanares</span>
-                        <p>Email: </p>
-                        <span>developer@jehaann-manzanares.com</span>
-                    </div>
+                <div class="aboutme-name-phone">
+                    <p>Nombre: </p>
+                    <span>Jehaann Manzanares</span>
+                    <p>Celular:</p>
+                    <span> (505) 8272 - 4327</span>
+                </div>
+                <div class="aboutme-email-social">
+                    <p>Redes sociales:</p>
+                    <span> @Jehaann Manzanares</span>
+                    <p>Email: </p>
+                    <span>developer@jehaann-manzanares.com</span>
+                </div>
             </div>
-                           
-            <!-- <p>
-              he desarrollado habilidades de:
-            </p>
-            <div class="profiles">
-                <div class="profiles-container" >
-                    <i class="lead"></i>
-                    <p> Líderazgo de equipo</p>
-                </div>
-                <div  class="profiles-container">
-                    <i class="comunicator"></i>
-                    <p>Habilidades de comunicación</p>
-                </div>
-                 <div class="profiles-container"><i class="time"></i>
-                    <p>Cordinación del tiempo</p>
-                </div>
-            </div> -->
         </div>
         <div class="about-me-img">
             <figure>
@@ -88,50 +70,45 @@
             <div class="skills-container">
                 <h3 class="titles">Conocimientos</h3>
                 <div class="skills">
-                    <h4>SCRUM</h4>
+                    <h4>FrontEnd</h4>
                     <div class="skill ">
-                        
                         <div class="level one"><span class="tooltip">85%</span></div>
                     </div>
                 </div>
                 <div class="skills">
-                    <h4>Lean Six Sixma</h4>
+                    <h4>BackEnd</h4>
                     <div class="skill">
-                            <div class="level two"><span class="tooltip" >50%</span></div>
+                        <div class="level two"><span class="tooltip" >50%</span></div>
                     </div>
                 </div>
                 <div class="skills">
-                    <h4>SEO</h4>
+                    <h4>Bases de datos</h4>
                     <div class="skill">
-                            <div class="level three"><span class="tooltip">80%</span></div>
+                        <div class="level three"><span class="tooltip">80%</span></div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="about-me-subtitle-two">
-            
             <span class="line"></span>
             <div class="call-to-action-about">
                 <a href="https://jehaann-manzanares.com/wp-content/uploads/2019/05/cv-Jehaann-Manzanares-.pdf" class="btn blue download">Descargar CV </a>
                 <a href="#contact" class="btn sent"> Enviar mensaje </a>
             </div>
         </div>
-        </div>
-
-    </section>
-    <div class="space-background" >
-       
     </div>
+    </section>
+    <div class="space-background" ></div>
     <section class="services">
       <div class="container-services">
         <h2 class="titles centrado title-service">Mis servicios</h2>
         <div class="service development">
           <div class="content-icon">
-            <i class="icon-development"></i>
+                <i class="icon-development"></i>
           </div>
-            <h3>Desarrollo web</h3>
-            <p>Desarrollo de sistemas, Sitios web dinámicos, estáticos y Wep Apps.</p>
-            <!-- <a href="#" class="btn">Más información</a> -->
+                <h3>Desarrollo web</h3>
+                <p>Desarrollo de sistemas, páginas web y Wep Apps.</p>
+                <!-- <a href="#" class="btn">Más información</a> -->
         </div>
         <div class="service web-desing">
           <div class="content-icon">
@@ -146,20 +123,17 @@
               <i class="icon-graphic-desing"></i>
           </div>
             <h3 >Diseño Gráfico</h3>
-            <p>Diseños creativos que comuniquen los objetivos que deseas, desde logos, papeleria y más.</p>
+            <p>Diseños creativos que comuniquen los objetivos que deseas cumplir.</p>
             <!-- <a href="#" class="btn">Más información</a> -->
         </div>
       </div>
     </section>
-    <div class="space-background">
-       
-    </div>
+    <div class="space-background"></div>
     <section id="portfolio" class="portfolio">
       <div class="container-portfolio">
-
         <div class="portfolio-titles">
              <h2 class="titles">Porfolio</h2>
-             <p class="subtitles-black">Te presento los proyectos más destacados que he desarrollado. </p>
+             <p class="subtitles-black">Te presento los proyectos más destacados que he desarrollado.</p>
         </div>
         <div class="porfolio-category">
             <ul>
@@ -170,7 +144,6 @@
                 <li><a href="#">Diseño</a></li>
             </ul>
         </div>
-
         <article class="project">
                 <div  class="project-container">
                     <figure class="image-container">
@@ -179,7 +152,7 @@
                     <span class="project-info">
                         <p >
                             <span class="titles-project">Desarrollo Sistema Web</span>
-                            <!-- <span class="subtitles-project">Sistema de ventas, desarrollado desde el boceto hasta ser pueso en producción. </span> -->
+                            <span class="subtitles-project">Sistema de ventas, desarrollado desde el boceto hasta ser pueso en producción. </span>
                             <a href="https://jehaann-manzanares.com/desarrollo-de-sistema-web/"class="btn" >ver proyecto</a>
                         </p>
                     </span>
