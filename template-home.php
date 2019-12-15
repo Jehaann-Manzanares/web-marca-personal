@@ -152,7 +152,6 @@
                     <span class="project-info">
                         <p >
                             <span class="titles-project">Desarrollo Sistema Web</span>
-                            <span class="subtitles-project">Sistema de ventas, desarrollado desde el boceto hasta ser pueso en producción. </span>
                             <a href="https://jehaann-manzanares.com/desarrollo-de-sistema-web/"class="btn" >ver proyecto</a>
                         </p>
                     </span>
@@ -166,7 +165,6 @@
                 <span class="project-info">
                     <p >
                         <span class="titles-project">Desarrollo Página web</span>
-                        <!-- <span class="subtitles-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span> -->
                         <a class="btn" href="https://jehaann-manzanares.com/pagina-web-techting/">ver proyecto</a>
                     </p>
                 </span>
@@ -180,7 +178,6 @@
                 <span class="project-info">
                     <p >
                         <span class="titles-project">Diseño Página web</span>
-                        <!-- <span class="subtitles-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span> -->
                         <a class="btn" href="https://jehaann-manzanares.com/Diseno-web-golden-supply-cr">ver proyecto</a>
                     </p>
                 </span>
