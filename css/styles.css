@@ -980,13 +980,16 @@ figure {
   grid-area: sidebar-principal;
   display: inline-block;
   justify-content: center;
-  box-shadow: 1px 1px 10px rgba(203, 203, 203, 0.9);
-  border-top: 3px solid var(--colorCeleste);
-  border-bottom: 3px solid var(--colorCeleste);
   padding: 2em;
   margin-top: 2em;
+  
 }
-
+.user-data, .gidgets-seconds{
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(203, 203, 203, 0.9);
+  padding:1.5em;
+  margin-bottom: 2em;
+}
 .contenedor-info h1,
 p {
   padding: 0.5em;
@@ -1027,7 +1030,7 @@ p {
   font-family: texts;
   background-color: transparent;
   color: var(--colorCeleste);
-  padding: 0.5em;
+  padding: 0.7em 2em;
 }
 
 .widget_search .search-form input[type="submit"]:hover {
