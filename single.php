@@ -3,7 +3,7 @@
     <?php if (have_posts() ): while ( have_posts() ): the_post(); ?>
     <?php if (has_post_thumbnail()): ?>    
        <?php $banner_article = wp_get_attachment_image_src(get_post_thumbnail_id(),'full');?>
-        <section class="container-blog-image" style="background-image: url('<?php echo banner_article[0]; ?>/main-slider.png')">
+        <section class="container-blog-image" style="background-image: url('<?php echo $banner_article[0]; ?>')">
 
         </section>
     <?php else:?>
