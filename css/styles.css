@@ -909,7 +909,7 @@ footer span {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-height: 15em;
+  height: 15em;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 2em;
@@ -1133,9 +1133,6 @@ p {
 -----------------------------*/
   .container-blog {
     grid-template-columns: repeat(2, 1fr);
-  }
-  .blog-post {
-    width: 90%;
   }
 
   .blog .container-blog {
