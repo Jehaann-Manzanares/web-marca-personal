@@ -171,7 +171,7 @@ a {
 .btn {
   background: transparent;
   color: var(--colorCeleste);
-  padding: 0.6em 2em;
+  padding: 0.6em 1.5em;
   border-radius: 5px;
   border: 0.5px solid var(--colorCeleste);
 }
@@ -1163,9 +1163,6 @@ p {
     grid-column-gap: 0.5em;
   }
 
-  .info-grapich {
-    margin-left: 1.5em;
-  }
   .bloque a {
     display: block;
     margin-bottom: 0.5em;
@@ -1241,6 +1238,7 @@ p {
   .call-to-action-about .btn {
     display: block;
     margin-bottom: 1em;
+    margin-right: 0;
   }
 
   .call-to-action-about .btn {
@@ -1283,11 +1281,11 @@ p {
   .call-to-action-about .btn:hover {
     background-position-x: 200px;
   }
-  .skills-container {
-    width: 80%;
-  }
   .about-me-img {
     margin-bottom: 8em;
+  }
+  .call-to-action-about a {
+    margin-right: 0;
   }
 }
 

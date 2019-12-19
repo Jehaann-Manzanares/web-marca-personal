@@ -17,7 +17,7 @@
             <a href="https://www.linkedin.com/in/jehaann-manzanares-153740140/"><i class="linkedIn"></i></a>
             <a href="https://github.com/Jehaann-Manzanares"><i class="github"></i></a>
         </div>
-        <span>d</span>
+        <span></span>
         <div class="sub-footer">
                 <p class="subtitles">De LATAM  para el mundo</p>
         </div>

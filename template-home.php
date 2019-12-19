@@ -17,7 +17,7 @@
               <img src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.png' alt="jehaann-manzanares.png">
            </figure>
       </div>
-        <div class="info-grapich slide fadeInRight ">
+        <div class="info-grapich slide fadeInUp ">
             <div class="info-slider centrado">
                 <h2 class="titles"> <strong>Soy desarrollador FrontEnd</strong></h2>
                 <p class="subtitles">Diseño y desarrollo páginas web y Web Apps funcionales, con interfaces que brinden las mejores experiencias de usuario.</p>
