@@ -911,6 +911,7 @@ footer span {
   justify-content: center;
   height: 15em;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   margin-bottom: 2em;
 }
