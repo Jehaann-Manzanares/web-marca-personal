@@ -40,6 +40,7 @@
 <body <?php body_class(); ?>>
     <i class="icon-menu burger-button" id="burger-menu"></i>
     <header class="menu" id="navbar">
+      <div class="container-header">
         <a href="<?php echo home_url(); ?>"><h1 class="logo"></h1></a>
         <nav class="container-menu fadeIn">
              <ul>
@@ -47,7 +48,7 @@
                  <li><a href="#portfolio">Portfolio</a></li>
                  <li><a href="https://jehaann-manzanares.com/blog/">Blog</a></li>
                  <li><a href="#contact"><button class="btn">Contactar</button></a></li>
-                
              </ul>
         </nav>
+      </div>
     </header>

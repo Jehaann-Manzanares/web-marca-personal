@@ -112,21 +112,23 @@ body {
 /*-----------------------------
         MENU
 -----------------------------*/
-.menu {
+.menu{
+  background-color: var(--colorNegro);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition: top 0.5s;
+}
+.container-header {
   display: grid;
   grid-template-columns: 30% 1fr;
   grid-template-areas: "logo . container-menu";
   align-items: center;
   padding: 30px 20px;
-  background-color: var(--colorNegro);
   color: white;
   font-size: 18px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 10;
   margin: 0 auto;
-  transition: top 0.5s;
 }
 
 .burger-button {
@@ -280,7 +282,9 @@ a {
 .container-portfolio,
 .container-contact,
 .container-services,
-.container-call {
+.container-call,
+.container-header,
+.content-post  {
   max-width: 1024px;
 }
 .container-main {
@@ -957,6 +961,7 @@ figure {
   grid-template-rows: auto;
   padding: 2.5em;
   grid-gap: 2em;
+  margin: 0 auto;
 }
 
 .article {
@@ -1054,33 +1059,33 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .menu {
-    display: grid;
+  .menu{
+
+    position: fixed;
+    top: 0;
+    z-index: 12;
+    left: -110vw;
+    width: 60vw;
+    height: 120vh;
+    transition: 0.3s;
+  }
+  .container-header {
+    
+    background-color: rgba(0, 0, 0, 0.9);
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 0.1fr 0.5fr;
     grid-template-areas:
       "logo"
       "container-menu"
       ".";
-    background-color: rgba(0, 0, 0, 0.9);
     color: white;
-    position: fixed;
-    top: 0;
-    z-index: 12;
     margin: 0 auto;
-    left: -110vw;
-    width: 60vw;
-    height: 120vh;
-    transition: 0.3s;
     box-sizing: border-box;
   }
 
   .logo {
     margin: 0 auto;
     background-image: url("../icons/logo-Jehaann-manzanares.svg");
-    width: 15em;
-    height: 12em;
-    background-size: 15em 12em;
     background-repeat: no-repeat;
   }
 
@@ -1152,7 +1157,7 @@ p {
   RESPONSIVE TABLET MOVIL
 -----------------------------*/
 @media screen and (max-width: 480px) {
-  .menu {
+  .container-header {
     width: 85vw;
   }
   .container-main {
