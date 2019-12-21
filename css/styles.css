@@ -284,7 +284,8 @@ a {
 .container-services,
 .container-call,
 .container-header,
-.content-post  {
+.content-post,
+.container {
   max-width: 1024px;
 }
 .container-main {
@@ -640,7 +641,7 @@ strong {
 .project-container {
   cursor: pointer;
   position: relative;
-  transition: .5s;
+  transition: .5s all;
 }
 
 .image-container {
@@ -669,8 +670,8 @@ strong {
 }
 .project-container:hover {
   box-shadow: 1px 1px 10px rgba(203, 203, 203, 0.9);
-  transform: scale(1.03);
-  transition: .5s;
+  transform: scale(1.05);
+  
 
 }
 .project-container:hover .project-info {
@@ -859,9 +860,13 @@ footer span {
 .social-icons a {
   margin-left: 0.5em;
 }
+.social-icons a i{
+
+  transition:.5s all ;
+}
 .social-icons a i:hover {
   transform: scale(1.2);
-  transition:.5s ;
+  
 }
 .space-background {
   width: 100%;
@@ -901,6 +906,10 @@ footer span {
   width: 100%;
   box-sizing: border-box;
 }
+.container{
+  margin: 0 auto;
+}
+
 .container-blog {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -932,6 +941,7 @@ footer span {
 }
 .blog-post:hover {
   box-shadow: 1px 1px 10px rgba(203, 203, 203, 0.9);
+  transform: scale(1.1);
 }
 
 .blog-post img {
