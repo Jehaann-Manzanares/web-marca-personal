@@ -912,7 +912,7 @@ footer span {
 
 .container-blog {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
   grid-gap: 2em;
   margin: 0 1em;
