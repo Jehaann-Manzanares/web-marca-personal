@@ -1,0 +1,43 @@
+::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #808080;
+  border-radius: 10px;
+  transition: background ease-in-out 0.5s;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+.section__portfolio {
+  max-width: 1240px;
+  display: block;
+  margin: 0 auto;
+  padding: 1.8em;
+}
+.section__portfolio h1 {
+  margin-top: 0.8em;
+}
+.subtitle {
+  color: var(--colorAzul);
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+.container__portfolio {
+  overflow: scroll;
+  overflow-y: hidden;
+  margin-bottom: 2em;
+}
+.scroll__portfolio {
+  display: flex;
+  white-space: nowrap;
+}
+.proyecto {
+  margin: 0 0.5em;
+}
+.proyecto__img {
+  height: 20em;
+  width: auto;
+  border-radius: 5px;
+}

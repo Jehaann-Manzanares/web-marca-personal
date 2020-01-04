@@ -286,7 +286,7 @@ a {
 .container-header,
 .content-post,
 .container {
-  max-width: 1024px;
+  max-width: 1240px;
 }
 .container-main {
   display: grid;
