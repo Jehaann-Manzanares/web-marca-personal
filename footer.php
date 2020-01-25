@@ -18,9 +18,6 @@
             <a href="https://github.com/Jehaann-Manzanares"><i class="github"></i></a>
         </div>
         <span></span>
-        <div class="sub-footer">
-                <p class="subtitles">De LATAM  para el mundo</p>
-        </div>
     </footer>
     <?php wp_footer(); ?>
 </body>

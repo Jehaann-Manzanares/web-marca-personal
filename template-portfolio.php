@@ -15,24 +15,11 @@
         <div class="container__portfolio">
             <div class="scroll__portfolio">
                 <article class="proyecto">
-                    <figure class="container__proyecto">
-                        <img class="proyecto__img"  src="<?php echo RutaImagenes?>/TechTing-Training-and-Consulting.png" alt="Proyecto Web design - techting"> 
-                    </figure>
-                </article>
-                <article class="proyecto">
-                    <figure class="container__proyecto">
-                        <img class="proyecto__img"  src="<?php echo RutaImagenes?>/TechTing-Training-and-Consulting.png" alt="Proyecto Web design - techting"> 
-                    </figure>
-                </article>
-                <article class="proyecto">
-                    <figure class="container__proyecto">
-                        <img class="proyecto__img"  src="<?php echo RutaImagenes?>/TechTing-Training-and-Consulting.png" alt="Proyecto Web design - techting"> 
-                    </figure>
-                </article>
-                <article class="proyecto">
-                    <figure class="container__proyecto">
-                        <img class="proyecto__img"  src="<?php echo RutaImagenes?>/TechTing-Training-and-Consulting.png" alt="Proyecto Web design - techting"> 
-                    </figure>
+                    <a href="#">
+                        <figure class="container__proyecto">
+                            <img class="proyecto__img"  src="<?php echo RutaImagenes?>/TechTing-Training-and-Consulting.png" alt="Proyecto Web design - techting"> 
+                        </figure>
+                    </a>
                 </article>
                 <article class="proyecto">
                     <figure class="container__proyecto">
