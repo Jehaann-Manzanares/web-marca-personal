@@ -14,7 +14,7 @@
     <div class="container-main">
       <div class="img-slider fadeInLeft">
            <figure>
-              <img src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.png' alt="jehaann-manzanares.png">
+              <img src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.svg' alt="jehaann-manzanares.png">
            </figure>
       </div>
         <div class="info-grapich slide fadeInUp ">
@@ -59,7 +59,7 @@
                     <p>Redes sociales:</p>
                     <span> @Jehaann Manzanares</span>
                     <p>Email: </p>
-                    <span>developer@jehaann-manzanares.com</span>
+                    <span>jehaann07carlos@gmail.com</span>
                 </div>
             </div>
         </div>
@@ -177,7 +177,7 @@
                 </figure>
                 <span class="project-info">
                     <p >
-                        <span class="titles-project">Diseño Página web</span>
+                        <span class="titles-project">Diseño de Página web</span>
                         <a class="btn" href="https://jehaann-manzanares.com/Diseno-web-golden-supply-cr">ver proyecto</a>
                     </p>
                 </span>
@@ -211,11 +211,11 @@
             </div>
             <div class="contact-icon-container">
                 <i class="icon-phone"></i>
-                <p>(505) 82724327</p>
+                <p>(505) 8272 - 4327</p>
             </div>
             <div class="contact-icon-container">
                 <i class="icon-mail"></i>
-                <p>developer@jehaann-manzanares.com</p>
+                <p>jehaann07carlos@gmail.com</p>
             </div>
         </div>
         <div class="contact-form">

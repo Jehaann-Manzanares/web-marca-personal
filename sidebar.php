@@ -10,7 +10,7 @@ archivos con el sidebar del tema
 <aside class="sidebar-principal">
     <section class="user-data">
         <figure class="contenedor-img">
-                <img src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.png' alt="jehaann-manzanares.png">
+                <img src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.svg' alt="jehaann-manzanares.png">
         </figure>
         <div class="contenedor-info">
             <h1>Autor: <?php echo get_the_author(); ?></h1>

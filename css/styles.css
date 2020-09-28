@@ -84,6 +84,7 @@ video {
   --colorCeleste: #4ebaf9;
   --colorAzul: #0067cd;
   --degradado: linear-gradient(to right, var(--colorAzul), var(--colorCeleste));
+  --border-radius:15px;
 }
 
 @font-face {
@@ -91,18 +92,19 @@ video {
   font-display: auto;
   src: url("../fonts/Poppins-Medium.ttf");
 }
+/*
 @font-face {
   font-family: texts;
   font-display: auto;
   src: url("../fonts/Poppins-Light.ttf");
 }
-
+*/
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: texts;
+  font-family: "Poppins","Roboto";
 }
 
 .center {
@@ -174,7 +176,7 @@ a {
   background: transparent;
   color: var(--colorCeleste);
   padding: 0.6em 1.5em;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   border: 0.5px solid var(--colorCeleste);
 }
 /*-----------------------------
@@ -186,7 +188,6 @@ a {
   padding: 2.5em 1.5em;
   justify-content: center;
   box-sizing: border-box;
-  background-image: url(../images/main-slider.png);
   background-repeat: no-repeat;
 }
 /*-----------------------------
@@ -240,7 +241,7 @@ a {
   color: white;
   text-align: center;
   transition: 0.3s;
-  border-radius: 5px;
+  border-radius:var(--border-radius);;
 }
 .service p {
   margin-bottom: 1em;
@@ -253,7 +254,7 @@ a {
 .service:hover {
   background: white;
   color: var(--colorAzul);
-  box-shadow: -2px 3px 10px 2px rgba(168, 168, 168, 1);
+  box-shadow: -2px 3px 10px 2px rgba(168, 168, 168, 0.3);
 }
 .service h3 {
   font-size: 1.3em;
@@ -365,7 +366,7 @@ p {
 }
 
 .subtitles-black {
-  color: black;
+  color:  var(--colorNegro);
 }
 strong {
   color: var(--colorCeleste);
@@ -379,7 +380,7 @@ strong {
   display: flex;
   margin: 0 auto;
   padding: 2em;
-  background: black;
+  background:  var(--colorNegro);
   color: white;
   justify-content: center;
 }
@@ -412,7 +413,7 @@ strong {
 .about-me-img img {
   width: 80%;
   height: auto;
-  border-radius: 5px;
+  border-radius: var(--border-radius);;
 }
 
 .about-me-subtitle-two {
@@ -441,7 +442,7 @@ strong {
   position: absolute;
   top: 30%;
   left: 10%;
-  border-radius: 5px;
+  border-radius: var(--border-radius);;
 }
 .skills {
   display: inline-block;
@@ -475,6 +476,7 @@ strong {
   z-index: 1;
   top: -50px;
   left: 100%;
+  border-radius: 10px;
 }
 
 .one {
@@ -501,7 +503,7 @@ strong {
 }
 
 .profiles {
-  color: black;
+  color:  var(--colorNegro);
 }
 .lead,
 .comunicator,
@@ -642,6 +644,8 @@ strong {
   cursor: pointer;
   position: relative;
   transition: .5s all;
+  border-radius: var(--border-radius);
+  overflow: hidden;
 }
 
 .image-container {
@@ -652,10 +656,10 @@ strong {
   width: 100%;
   object-fit: cover;
   vertical-align: top;
-  border-radius: 5px;
+  
 }
 .project-info {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(1, 3, 18, 0.8);
   position: absolute;
   left: 0;
   right: 0;
@@ -666,12 +670,13 @@ strong {
   justify-content: center;
   text-align: center;
   padding: 1em;
+  border-radius: var(--border-radius);
   
 }
 .project-container:hover {
-  box-shadow: 1px 1px 10px rgba(203, 203, 203, 0.9);
+  box-shadow: 1px 1px 10px rgba(203, 203, 203, 0.3);
   transform: scale(1.05);
-  
+ 
 
 }
 .project-container:hover .project-info {
@@ -704,7 +709,7 @@ strong {
 
 button {
   font-size: 16px;
-  font-family: texts;
+  font-family: "Poppins","Roboto";
   cursor: pointer;
 }
 
@@ -931,7 +936,7 @@ footer span {
 
 .blog-post {
   display: block;
-  border-radius: 10px;
+  border-radius: var(--border-radius);
   height: auto;
   width: 100%;
   box-shadow: 1px 1px 10px rgba(203, 203, 203, 0.3);
@@ -940,8 +945,8 @@ footer span {
   transition: 300ms all;
 }
 .blog-post:hover {
-  box-shadow: 1px 1px 10px rgba(203, 203, 203, 0.9);
-  transform: scale(1.1);
+  box-shadow: 1px 1px 10px rgba(203, 203, 203, 0.4);
+  transform: scale(1.05);
 }
 
 .blog-post img {
@@ -1000,8 +1005,8 @@ figure {
   
 }
 .user-data, .gidgets-seconds{
-  border-radius: 5px;
-  box-shadow: 1px 1px 10px rgba(203, 203, 203, 0.9);
+  border-radius: var(--border-radius);
+  box-shadow: 1px 1px 10px rgba(203, 203, 203, 0.3);
   padding:1.5em;
   margin-bottom: 2em;
 }
@@ -1042,7 +1047,7 @@ p {
 .widget_search .search-form input[type="submit"] {
   border-radius: 5px;
   border: 1px solid var(--colorCeleste);
-  font-family: texts;
+  font-family: "Poppins","Roboto";
   background-color: transparent;
   color: var(--colorCeleste);
   padding: 0.7em 2em;
