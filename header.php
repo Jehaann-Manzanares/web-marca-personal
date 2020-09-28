@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php wp_title('|',true,'right') ?> <?php bloginfo(); ?></title>
-    <link rel="icon" type="image/png" href="<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.svg" sizes="16x16">
     <!-- FUNCION PARA NOTIFICAR ENLACES DE BLOGS -->
     <link rel="pingback" href="<?php bloginfo('pingback_url');?>">
     <!-- FUNCION PARA MOVER LA CAjA DE COMENTARIOS-->
@@ -46,7 +46,7 @@
              <ul>
                  <li><a href="#about-me">Sobre mi</a></li>
                  <li><a href="#portfolio">Portfolio</a></li>
-                 <li><a href="https://jehaann-manzanares.com/blog/">Blog</a></li>
+                 <li><a href="<?php echo home_url();?>/blog/">Blog</a></li>
                  <li><a href="#contact"><button class="btn">Contactar</button></a></li>
              </ul>
         </nav>

@@ -14,12 +14,12 @@
     <div class="container-main">
       <div class="img-slider fadeInLeft">
            <figure>
-              <img src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.png' alt="jehaann-manzanares.png">
+              <img src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.svg' alt="jehaann-manzanares.png">
            </figure>
       </div>
         <div class="info-grapich slide fadeInUp ">
             <div class="info-slider centrado">
-                <h2 class="titles"> <strong>Soy desarrollador FrontEnd</strong></h2>
+                <h2 class="titles"> Soy <strong>desarrollador FrontEnd</strong> y <strong> Docente creativo</strong></h2>
                 <p class="subtitles">Diseño y desarrollo páginas web y Web Apps funcionales, con interfaces que brinden las mejores experiencias de usuario.</p>
                 <div class="bloque">
                   <a href="#contact" class="btn">Contactar</a>
@@ -32,7 +32,7 @@
     <div class="space-background"></div>
    <section id="about-me" class="about-me">
         <div class="container-aboutme ">
-            <h2 class="titles title-about fadeInUp">Sobre mí</h2>
+            <h2 id="title-about" class="titles title-about">Sobre mí</h2>
             <div class="about-me-subtitle-one">
                 <p class="">¡Hola mi nombre es Jehaann!<br><br>
                     Soy un profesional amante de la tecnología, me he especializado como:
@@ -41,8 +41,7 @@
                     <strong>Diseño UI y UX</strong>, 
                     <strong>BackEnd con PHP - Laravel</strong> y
                     <strong>Bases de datos</strong>,
-                    He desarrollado proyectos increíbles y he adquirido conocimientos en cada uno de ellos para
-                        desarrollar cualquier proyecto de forma exitosa. 
+                    He desarrollado proyectos increíbles y he adquirido conocimientos en cada uno de ellos para desarrollar cualquier proyecto de forma exitosa. 
                 </p>
                 <p>
                 Trabajo muy bien en equipo, tengo muy buenas habilidades de comunicación también 
@@ -59,7 +58,7 @@
                     <p>Redes sociales:</p>
                     <span> @Jehaann Manzanares</span>
                     <p>Email: </p>
-                    <span>developer@jehaann-manzanares.com</span>
+                    <span>jehaann07carlos@gmail.com</span>
                 </div>
             </div>
         </div>
@@ -152,7 +151,7 @@
                     <span class="project-info">
                         <p >
                             <span class="titles-project">Desarrollo Sistema Web</span>
-                            <a href="https://jehaann-manzanares.com/desarrollo-de-sistema-web/"class="btn" >ver proyecto</a>
+                            <a href="<?php echo home_url();?>/desarrollo-de-sistema-web/"class="btn" >ver proyecto</a>
                         </p>
                     </span>
                 </div>
@@ -165,7 +164,7 @@
                 <span class="project-info">
                     <p >
                         <span class="titles-project">Desarrollo Página web</span>
-                        <a class="btn" href="https://jehaann-manzanares.com/pagina-web-techting/">ver proyecto</a>
+                        <a class="btn" href="<?php echo home_url();?>/pagina-web-techting/">ver proyecto</a>
                     </p>
                 </span>
             </div>
@@ -177,8 +176,8 @@
                 </figure>
                 <span class="project-info">
                     <p >
-                        <span class="titles-project">Diseño Página web</span>
-                        <a class="btn" href="https://jehaann-manzanares.com/Diseno-web-golden-supply-cr">ver proyecto</a>
+                        <span class="titles-project">Diseño de Página web</span>
+                        <a class="btn" href="<?php echo home_url();?>/Diseno-web-golden-supply-cr">ver proyecto</a>
                     </p>
                 </span>
             </div>
@@ -211,11 +210,11 @@
             </div>
             <div class="contact-icon-container">
                 <i class="icon-phone"></i>
-                <p>(505) 82724327</p>
+                <p>(505) 8272 - 4327</p>
             </div>
             <div class="contact-icon-container">
                 <i class="icon-mail"></i>
-                <p>developer@jehaann-manzanares.com</p>
+                <p>jehaann07carlos@gmail.com</p>
             </div>
         </div>
         <div class="contact-form">
