@@ -85,6 +85,7 @@ video {
   --colorAzul: #0067cd;
   --degradado: linear-gradient(to right, var(--colorAzul), var(--colorCeleste));
   --border-radius:15px;
+<<<<<<< HEAD
 }
 
 ::-webkit-scrollbar {
@@ -98,6 +99,8 @@ video {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--colorAzul);
+=======
+>>>>>>> 5a810b37ba0a8eccee740bdd285be1cd4d320bcf
 }
 
 @font-face {
