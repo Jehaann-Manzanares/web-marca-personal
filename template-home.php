@@ -64,7 +64,7 @@
         </div>
         <div class="about-me-img">
             <figure>
-                <img src='<?php echo RutaImagenes?>/developer-about-me.jpg' alt="sobre-jehaann-manzanares" class="img-about-me">
+                <img src='<?php echo RutaImagenes?>/developer-about-me.webp' alt="sobre-jehaann-manzanares" class="img-about-me">
             </figure>
             <div class="skills-container">
                 <h3 class="titles">Conocimientos</h3>
@@ -146,7 +146,7 @@
         <article class="project">
                 <div  class="project-container">
                     <figure class="image-container">
-                        <img src='<?php echo RutaImagenes?>/work1.jpg' alt="sistema web" class="img-project">
+                        <img src='<?php echo RutaImagenes?>/sistema-de-ventas.webp' alt="sistema web" class="img-project">
                     </figure>
                     <span class="project-info">
                         <p >
@@ -159,7 +159,7 @@
         <article class="project">
             <div  class="project-container">
                 <figure>
-                    <img src='<?php echo RutaImagenes?>/TechTing-Training-and-Consulting.png' alt="projecto1" class="img-project">
+                    <img src='<?php echo RutaImagenes?>/TechTing-Training-and-Consulting.webp' alt="projecto1" class="img-project">
                 </figure>
                 <span class="project-info">
                     <p >
@@ -172,7 +172,7 @@
         <article class="project">
             <div  class="project-container">
                 <figure>
-                    <img src='<?php echo RutaImagenes?>/web-golden-suply.jpg' alt="projecto1" class="img-project">
+                    <img src='<?php echo RutaImagenes?>/web-golden-suply.webp' alt="projecto1" class="img-project">
                 </figure>
                 <span class="project-info">
                     <p >

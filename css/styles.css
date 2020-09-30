@@ -85,7 +85,6 @@ video {
   --colorAzul: #0067cd;
   --degradado: linear-gradient(to right, var(--colorAzul), var(--colorCeleste));
   --border-radius:15px;
-<<<<<<< HEAD
 }
 
 ::-webkit-scrollbar {
@@ -99,8 +98,6 @@ video {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--colorAzul);
-=======
->>>>>>> 5a810b37ba0a8eccee740bdd285be1cd4d320bcf
 }
 
 @font-face {
@@ -433,7 +430,7 @@ strong {
 .about-me-img img {
   width: 80%;
   height: auto;
-  border-radius: var(--border-radius);;
+  border-radius: var(--border-radius);
 }
 
 .about-me-subtitle-two {
@@ -896,7 +893,7 @@ footer span {
 .space-background {
   width: 100%;
   background-size: cover;
-  background-image: url("../images/img-background-09.png");
+  background-image: url("../images/img-background-09.webp");
   background-repeat: no-repeat;
   background-position: center;
   padding: 2em;
