@@ -31,10 +31,10 @@
    </section>
     <div class="space-background"></div>
    <section id="about-me" class="about-me">
-        <div class="container-aboutme ">
-            <h2 id="title-about" class="titles title-about">Sobre mí</h2>
+        <div class="container-aboutme animacion">
+            <h2 id="title-about" class="titles title-about animacion">Sobre mí</h2>
             <div class="about-me-subtitle-one">
-                <p class="">¡Hola mi nombre es Jehaann!<br><br>
+                <p>¡Hola mi nombre es Jehaann!<br><br>
                     Soy un profesional amante de la tecnología, me he especializado como:
                     <strong> Desarrollador FrontEnd</strong> y <strong>Docente creativo.</strong>
                     <br><br>Ademas tengo conocimientos en :
@@ -43,7 +43,7 @@
                     <strong>Bases de datos</strong>,
                     He desarrollado proyectos increíbles y he adquirido conocimientos en cada uno de ellos para desarrollar cualquier proyecto de forma exitosa. 
                 </p>
-                <p>
+                <p class="">
                 Trabajo muy bien en equipo, tengo muy buenas habilidades de comunicación también 
                 soy colaborativo y <strong>nunca paro de aprender</strong> y compartir mis conocimientos.
                 </p>
@@ -62,9 +62,9 @@
                 </div>
             </div>
         </div>
-        <div class="about-me-img">
+        <div class="about-me-img animacion">
             <figure>
-                <img src='<?php echo RutaImagenes?>/developer-about-me.jpg' alt="sobre-jehaann-manzanares" class="img-about-me">
+                <img src='<?php echo RutaImagenes?>/developer-about-me.webp' alt="sobre-jehaann-manzanares" class="img-about-me">
             </figure>
             <div class="skills-container">
                 <h3 class="titles">Conocimientos</h3>
@@ -88,7 +88,7 @@
                 </div>
             </div>
         </div>
-        <div class="about-me-subtitle-two">
+        <div class="about-me-subtitle-two animacion">
             <span class="line"></span>
             <div class="call-to-action-about">
                 <a href="https://jehaann-manzanares.com/wp-content/uploads/2019/05/cv-Jehaann-Manzanares-.pdf" class="btn blue download">Descargar CV </a>
@@ -100,8 +100,8 @@
     <div class="space-background" ></div>
     <section class="services">
       <div class="container-services">
-        <h2 class="titles centrado title-service">Mis servicios</h2>
-        <div class="service development">
+        <h2 class="titles centrado title-service animacion">Mis servicios</h2>
+        <div class="service development animacion">
           <div class="content-icon">
                 <i class="icon-development"></i>
           </div>
@@ -109,7 +109,7 @@
                 <p>Desarrollo de sistemas, páginas web y Wep Apps.</p>
                 <!-- <a href="#" class="btn">Más información</a> -->
         </div>
-        <div class="service web-desing">
+        <div class="service web-desing animacion">
           <div class="content-icon">
             <i class="icon-web-desing"></i>
           </div>
@@ -117,7 +117,7 @@
             <p>Diseño profesional, pensados en brindar la mejor experiencia a los usuarios.</p>
             <!-- <a href="#" class="btn">Más información</a> -->
         </div>
-        <div class="service graphic-desing">
+        <div class="service graphic-desing animacion">
           <div class="content-icon">
               <i class="icon-graphic-desing"></i>
           </div>
@@ -146,7 +146,7 @@
         <article class="project">
                 <div  class="project-container">
                     <figure class="image-container">
-                        <img src='<?php echo RutaImagenes?>/work1.jpg' alt="sistema web" class="img-project">
+                        <img src='<?php echo RutaImagenes?>/sistema-de-ventas.webp' alt="sistema web" class="img-project">
                     </figure>
                     <span class="project-info">
                         <p >
@@ -159,7 +159,7 @@
         <article class="project">
             <div  class="project-container">
                 <figure>
-                    <img src='<?php echo RutaImagenes?>/TechTing-Training-and-Consulting.png' alt="projecto1" class="img-project">
+                    <img src='<?php echo RutaImagenes?>/TechTing-Training-and-Consulting.webp' alt="projecto1" class="img-project">
                 </figure>
                 <span class="project-info">
                     <p >
@@ -172,7 +172,7 @@
         <article class="project">
             <div  class="project-container">
                 <figure>
-                    <img src='<?php echo RutaImagenes?>/web-golden-suply.jpg' alt="projecto1" class="img-project">
+                    <img src='<?php echo RutaImagenes?>/web-golden-suply.webp' alt="projecto1" class="img-project">
                 </figure>
                 <span class="project-info">
                     <p >

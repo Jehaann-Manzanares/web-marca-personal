@@ -50,6 +50,20 @@ window.onscroll = function() {
     document.getElementById("navbar").style.top = "-100px";
   }
   prevScrollpos = currentScrollPos;
+
+  let elem = document.querySelectorAll('.animacion'); // obtengo el elemento por id
+  let tamano_window = window.innerHeight/2
+  
+  for (let i = 0; i < elem.length; i++) {
+    
+    let topElemD = elem[i].getBoundingClientRect().top; 
+    
+    (Math.trunc(topElemD) < tamano_window)
+      ? elem[i].classList.add('fadeInLeft') 
+      : console.log('nada') 
+
+  }
+  
   
 }
 
@@ -60,17 +74,3 @@ window.onscroll = function() {
 
 ********************************/
 
-
-// determina si un elemento comienza a ser visible
-function isElementVisible(elem){
-  let viewScrollTop = window.scrollTop; // distancia de scroll superior
-  let viewBottom = viewScrollTop + window.height; // distancia de scroll + el alto actual de window (lo no visible por scroll + lo visible)
-  let topElemD = elem.offsetTop; // distancia desde el elemento hasta el tope superior del viewport
-  return (topElemD < viewBottom);
-}
-
-// invoco una función anónima en el evento scroll sobre window
-window.onscroll = function() {
-  let elem = document.getElementById('#about-me'); // obtengo el elemento por id
-  isElementVisible(elem) ? elem.addClass('fadeInUp') : elem.removeClass('fadeInUp'); // si es visible agrego la class, de lo contrario la remuevo
-}
