@@ -12,12 +12,12 @@
 <?php get_header();?>
 <section id="main-slider" class="main-slider">
     <div class="container-main">
-      <div class="img-slider fadeInLeft">
+      <div class="img-slider animacion fadeInLeft active">
            <figure>
-              <img src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.svg' alt="jehaann-manzanares.png">
+              <img loading="lazy" src= '<?php echo RutaImagenes?>/Perfil-jehaann-manzanares.svg' alt="jehaann-manzanares.png">
            </figure>
       </div>
-        <div class="info-grapich slide fadeInUp ">
+        <div class="info-grapich slide fadeInRight active ">
             <div class="info-slider centrado">
                 <h2 class="titles"> Soy <strong>desarrollador FrontEnd</strong> y <strong> Docente creativo</strong></h2>
                 <p class="subtitles">Diseño y desarrollo páginas web y Web Apps funcionales, con interfaces que brinden las mejores experiencias de usuario.</p>
@@ -31,8 +31,8 @@
    </section>
     <div class="space-background"></div>
    <section id="about-me" class="about-me">
-        <div class="container-aboutme animacion">
-            <h2 id="title-about" class="titles title-about animacion">Sobre mí</h2>
+        <div class="container-aboutme animacion fadeInRight">
+            <h2 id="title-about" class="titles title-about">Sobre mí</h2>
             <div class="about-me-subtitle-one">
                 <p>¡Hola mi nombre es Jehaann!<br><br>
                     Soy un profesional amante de la tecnología, me he especializado como:
@@ -62,9 +62,9 @@
                 </div>
             </div>
         </div>
-        <div class="about-me-img animacion">
-            <figure>
-                <img src='<?php echo RutaImagenes?>/developer-about-me.webp' alt="sobre-jehaann-manzanares" class="img-about-me">
+        <div class="about-me-img">
+            <figure class="animacion fadeInLeft">
+                <img loading="lazy" src='<?php echo RutaImagenes?>/developer-about-me.webp' alt="sobre-jehaann-manzanares" class="img-about-me" load>
             </figure>
             <div class="skills-container">
                 <h3 class="titles">Conocimientos</h3>
@@ -88,10 +88,10 @@
                 </div>
             </div>
         </div>
-        <div class="about-me-subtitle-two animacion">
+        <div class="about-me-subtitle-two">
             <span class="line"></span>
             <div class="call-to-action-about">
-                <a href="https://jehaann-manzanares.com/wp-content/uploads/2019/05/cv-Jehaann-Manzanares-.pdf" class="btn blue download">Descargar CV </a>
+                <a href="https://drive.google.com/file/d/1xiSoL5cHdjxUBmi3w88cTbhAXc9mcGPC/view" class="btn blue download">Descargar CV </a>
                 <a href="#contact" class="btn sent"> Enviar mensaje </a>
             </div>
         </div>
@@ -99,9 +99,9 @@
     </section>
     <div class="space-background" ></div>
     <section class="services">
-      <div class="container-services">
-        <h2 class="titles centrado title-service animacion">Mis servicios</h2>
-        <div class="service development animacion">
+      <div class="container-services animacion fadeInLeft">
+        <h2 class="titles centrado title-service">Mis servicios</h2>
+        <div class="service development ">
           <div class="content-icon">
                 <i class="icon-development"></i>
           </div>
@@ -109,7 +109,7 @@
                 <p>Desarrollo de sistemas, páginas web y Wep Apps.</p>
                 <!-- <a href="#" class="btn">Más información</a> -->
         </div>
-        <div class="service web-desing animacion">
+        <div class="service web-desing">
           <div class="content-icon">
             <i class="icon-web-desing"></i>
           </div>
@@ -117,7 +117,7 @@
             <p>Diseño profesional, pensados en brindar la mejor experiencia a los usuarios.</p>
             <!-- <a href="#" class="btn">Más información</a> -->
         </div>
-        <div class="service graphic-desing animacion">
+        <div class="service graphic-desing">
           <div class="content-icon">
               <i class="icon-graphic-desing"></i>
           </div>
@@ -129,7 +129,7 @@
     </section>
     <div class="space-background"></div>
     <section id="portfolio" class="portfolio">
-      <div class="container-portfolio">
+      <div class="container-portfolio animacion fadeInLeft">
         <div class="portfolio-titles">
              <h2 class="titles">Porfolio</h2>
              <p class="subtitles-black">Te presento los proyectos más destacados que he desarrollado.</p>
@@ -146,7 +146,7 @@
         <article class="project">
                 <div  class="project-container">
                     <figure class="image-container">
-                        <img src='<?php echo RutaImagenes?>/sistema-de-ventas.webp' alt="sistema web" class="img-project">
+                        <img loading="lazy" src='<?php echo RutaImagenes?>/sistema-de-ventas.webp' alt="sistema web" class="img-project">
                     </figure>
                     <span class="project-info">
                         <p >
@@ -159,7 +159,7 @@
         <article class="project">
             <div  class="project-container">
                 <figure>
-                    <img src='<?php echo RutaImagenes?>/TechTing-Training-and-Consulting.webp' alt="projecto1" class="img-project">
+                    <img loading="lazy" src='<?php echo RutaImagenes?>/TechTing-Training-and-Consulting.webp' alt="projecto1" class="img-project">
                 </figure>
                 <span class="project-info">
                     <p >
@@ -172,7 +172,7 @@
         <article class="project">
             <div  class="project-container">
                 <figure>
-                    <img src='<?php echo RutaImagenes?>/web-golden-suply.webp' alt="projecto1" class="img-project">
+                    <img loading="lazy" src='<?php echo RutaImagenes?>/web-golden-suply.webp' alt="projecto1" class="img-project">
                 </figure>
                 <span class="project-info">
                     <p >

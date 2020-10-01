@@ -42,7 +42,7 @@
     <header class="menu" id="navbar">
       <div class="container-header">
         <a href="<?php echo home_url(); ?>"><h1 class="logo"></h1></a>
-        <nav class="container-menu fadeIn">
+        <nav class="container-menu fadeIn active">
              <ul>
                  <li><a href="#about-me">Sobre mi</a></li>
                  <li><a href="#portfolio">Portfolio</a></li>

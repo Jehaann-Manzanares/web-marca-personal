@@ -59,7 +59,7 @@ window.onscroll = function() {
     let topElemD = elem[i].getBoundingClientRect().top; 
     
     (Math.trunc(topElemD) < tamano_window)
-      ? elem[i].classList.add('fadeInLeft') 
+      ? elem[i].classList.add('active') 
       : console.log('nada') 
 
   }
